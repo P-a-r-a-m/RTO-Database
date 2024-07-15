@@ -1,0 +1,268 @@
+SET SEARCH_PATH TO dbms_project;
+
+
+CREATE TABLE User1(
+Login_id VARCHAR (10) PRIMARY KEY,
+Block_no INT,
+Password VARCHAR(50) NOT NULL,
+Appartment_name VARCHAR(70),
+Street VARCHAR(50),
+Name1 VARCHAR(100) NOT NULL,
+Rto_code VARCHAR (5) NOT NULL,
+Pin BIGINT NOT NULL,
+FOREIGN key(Pin) REFERENCES Pincode(Pin)
+ON DELETE CASCADE ON UPDATE CASCADE,
+FOREIGN key(Pin) REFERENCES RTO_office(Pin)
+ON DELETE CASCADE ON UPDATE CASCADE
+);
+
+CREATE TABLE Phone(
+Login_id VARCHAR(10),
+Phone_no VARCHAR(15) NOT NULL,
+PRIMARY KEY (Login_id,Phone_no),
+FOREIGN KEY (Login_id) REFERENCES Use1(Login_id)
+on DELETE CASCADE ON UPDATE CASCADE,
+);
+
+CREATE TABLE Pincode(
+Pin BIGINT PRIMARY KEY,
+State1 VARCHAR(50) NOT NULL,
+City VARCHAR(50) NOT NULL
+);
+
+CREATE TABLE RTO_office(
+Rto_code VARCHAR (5),
+Street VARCHAR(50),
+Pin BIGINT NOT NULL,
+PRIMARY KEY (Pin),
+FOREIGN KEY (Pin) REFERENCES Pincode(Pin)
+on DELETE CASCADE ON UPDATE CASCADE,
+
+);
+
+
+CREATE TABLE RTO_phone(
+Pin BIGINT,
+Phone_no VARCHAR(15) NOT NULL,
+PRIMARY KEY (Pin,Phone_no),
+FOREIGN KEY (Pin) REFERENCES RTO_office(Pin)
+on DELETE CASCADE ON UPDATE CASCADE,
+);
+
+
+CREATE TABLE LL_exam(
+LL_no VARCHAR(20),
+Vehicle_type VARCHAR(50) NOT NULL,
+PRIMARY KEY (LL_no)
+);
+
+CREATE TABLE Exam(
+LL_no VARCHAR(20),
+Attempt_no INT,
+Date1 DATE NOT NULL,
+Result1 varchar(5),
+PRIMARY KEY (LL_no, Attempt_no),
+FOREIGN KEY(LL_no) REFERENCES LL_exam(LL_no)
+ON DELETE CASCADE ON UPDATE CASCADE
+);
+
+CREATE TABLE Employee(
+Employee_id VARCHAR(20) PRIMARY KEY,
+Rto_code VARCHAR(5) NOT NULL,
+Block_no INT,
+Appartment_name VARCHAR(70),
+Street VARCHAR(50),
+Name1 VARCHAR(100) NOT NULL,
+Joining_date DATE NOT NULL,
+Dob DATE NOT NULL,
+Gender CHAR(1) NOT NULL,
+Pin BIGINT NOT NULL,
+FOREIGN KEY (Pin) REFERENCES RTO_office(Pin)
+ON UPDATE CASCADE ON DELETE CASCADE,
+FOREIGN KEY (Pin) REFERENCES Pincode(Pin)
+ON UPDATE CASCADE ON DELETE CASCADE
+);
+
+
+CREATE TABLE Employee_Phone(
+Employee_id VARCHAR(20),
+Phone_no VARCHAR(15) NOT NULL,
+PRIMARY KEY (Employee_id,Phone_no),
+FOREIGN KEY (Employee_id) REFERENCES Employee(Employee_id)
+on DELETE CASCADE ON UPDATE CASCADE
+);
+
+
+
+
+CREATE TABLE Licence(
+Login_id VARCHAR (10) PRIMARY KEY,
+Dob DATE NOT NULL,
+Vehicle_type VARCHAR(50) NOT NULL,
+Holder_name VARCHAR(100) NOT NULL,
+Block_no INT,
+Appartment_name VARCHAR(70),
+Street VARCHAR(50),
+Pin BIGINT NOT NULL,
+FOREIGN KEY (Pin) REFERENCES Pincode(Pin)
+ON UPDATE CASCADE ON DELETE CASCADE,
+FOREIGN KEY (Login_id) REFERENCES User1 (Login_id)
+ON UPDATE CASCADE ON DELETE CASCADE
+);
+
+CREATE TABLE Payment(
+Application_no BIGINT,
+Amount INT NOT NULL,
+Payment_date DATE NOT NULL,
+Cash_flag INT NOT NULL,
+Login_id VARCHAR (10) REFERENCES Licence(Login_id)
+on DELETE CASCADE ON UPDATE CASCADE,
+PRIMARY KEY(Application_no)
+);
+
+CREATE TABLE Owner1(
+Owner_id VARCHAR(10),
+Gov_idname VARCHAR(30) NOT NULL,
+Gov_idno VARCHAR(50) NOT NULL,
+PRIMARY KEY (Owner_id)
+);
+
+CREATE TABLE Vehicle_registration(
+Registration_no VARCHAR(20) PRIMARY KEY,
+Permit_duedate DATE NOT NULL,
+Registration_type VARCHAR(20) NOT NULL,
+No_platecolour VARCHAR(20),
+Purchase_invoiceno BIGINT NOT NULL,
+Manufacturer_name VARCHAR(100) NOT NULL,
+Vehicle_colour VARCHAR(20),
+Owner_id VARCHAR(10) NOT NULL REFERENCES Owner1(Owner_id)
+on DELETE CASCADE ON UPDATE CASCADE,
+Login_id VARCHAR (10) NOT NULL REFERENCES User1(Login_id)
+on DELETE CASCADE ON UPDATE CASCADE,
+Application_no BIGINT NOT NULL REFERENCES Payment(Application_no)
+on DELETE CASCADE ON UPDATE CASCADE,
+Permit_type VARCHAR(20) NOT NULL
+);
+
+
+CREATE TABLE Duplicate(
+DDL_no VARCHAR(20),
+DDL_issuedate DATE NOT NULL,
+DDL_validity DATE NOT NULL,
+Login_id VARCHAR NOT NULL,
+PRIMARY KEY (DDL_no),
+FOREIGN KEY (Login_id) REFERENCES Licence(Login_id) on delete cascade on update
+cascade
+);
+
+CREATE TABLE Insurance(
+Insurance_no BIGINT,
+Registering_authority VARCHAR(50) NOT NULL,
+Puc_status VARCHAR(10) NOT NULL,
+Insurance_upto DATE NOT NULL,
+Fitness_upto DATE,
+MV_taxupto DATE,
+Finance VARCHAR(50),
+Registration_no VARCHAR NOT NULL,
+PRIMARY KEY (Insurance_no),
+FOREIGN KEY (Registration_no) REFERENCES Vehicle_registration(Registration_no) on
+delete cascade on UPDATE cascade
+);
+
+CREATE TABLE PUC(
+Puc_srno BIGINT,
+Issued_by VARCHAR(50),
+Issue_date DATE NOT NULL,
+Due_date DATE NOT NULL,
+CO_level float,
+HC_level float,
+SD_level float,
+Registration_no VARCHAR NOT NULL,
+PRIMARY KEY (Puc_srno),
+FOREIGN KEY (Registration_no) REFERENCES Vehicle_registration(Registration_no) on
+delete cascade on UPDATE cascade
+);
+
+CREATE TABLE Learner(
+LL_no VARCHAR(20),
+LL_issuedate DATE NOT NULL,
+LL_validity DATE NOT NULL,
+Login_id VARCHAR (10) NOT NULL,
+PRIMARY KEY (LL_no),
+FOREIGN KEY (Login_id) REFERENCES Licence (Login_id) ON DELETE CASCADE on
+UPDATE cascade
+);
+
+CREATE TABLE Permanent(
+DL_no BIGINT,
+DL_issuedate DATE NOT NULL,
+DL_validity DATE NOT NULL,
+Login_id VARCHAR (10) NOT NULL,
+PRIMARY KEY (DL_no),
+FOREIGN KEY (Login_id) REFERENCES Licence (Login_id) ON DELETE CASCADE on
+UPDATE cascade
+);
+
+CREATE TABLE Cheque(
+Application_no BIGINT,
+Account_no BIGINT NOT NULL,
+PRIMARY KEY (Application_no),
+FOREIGN KEY (Application_no) REFERENCES Payment (Application_no) ON DELETE
+CASCADE on UPDATE cascade
+);
+
+CREATE TABLE Charges(
+Challan_no BIGINT PRIMARY KEY,
+Application_no BIGINT NOT NULL,
+Offender_name VARCHAR(100) NOT NULL,
+Officer_id VARCHAR(50) NOT NULL,
+Offences VARCHAR(50) NOT NULL,
+Amount INT NOT NULL,
+Offence_date DATE NOT NULL,
+Vehicle_no VARCHAR(20) NOT NULL,
+Location1 VARCHAR(100),
+Vehicle_type VARCHAR(20) NOT NULL,
+FOREIGN KEY (Application_No) REFERENCES Payment(Application_No)
+ON UPDATE cascade ON DELETE CASCADE
+);
+
+
+CREATE TABLE User_charges(
+Login_id VARCHAR (10),
+Challan_no BIGINT,
+PRIMARY KEY (Login_id,Challan_no),
+FOREIGN KEY (Login_id) REFERENCES User1 (Login_id) ON DELETE CASCADE on
+UPDATE cascade,
+FOREIGN KEY (Challan_no) REFERENCES Charges (Challan_no) ON DELETE CASCADE on
+UPDATE cascade
+);
+
+
+CREATE TABLE RC_book(
+Engine_no VARCHAR(50),
+Chassis_no VARCHAR(20) NOT NULL,
+Registration_no VARCHAR NOT NULL,
+Registration_date DATE NOT NULL,
+Validity DATE NOT NULL,
+Owner_name VARCHAR(100) NOT NULL,
+Vehicle_type VARCHAR(50) NOT NULL,
+Fuel_type VARCHAR(20),
+PRIMARY KEY (Engine_no),
+FOREIGN KEY (Registration_no) REFERENCES Vehicle_registration(Registration_no)
+ON DELETE CASCADE on UPDATE cascade
+);
+
+CREATE TABLE UPI_transaction(
+Account_no BIGINT PRIMARY KEY,
+Upi_id VARCHAR(50) NOT NULL
+);
+
+CREATE TABLE UPI(
+Application_no BIGINT PRIMARY KEY,
+Account_no BIGINT NOT NULL,
+FOREIGN KEY (Application_no) REFERENCES Payment (Application_no)
+ON UPDATE CASCADE ON DELETE CASCADE,
+FOREIGN KEY (Account_no) REFERENCES UPI_transaction(Account_no)
+ON UPDATE CASCADE ON DELETE CASCADE
+);
+

@@ -1,0 +1,955 @@
+Phone:
+
+insert into Phone (Login_id, Phone_no) values ('user1', '+91 98765 43101');
+insert into Phone (Login_id, Phone_no) values ('user2', '+91 98765 43102');
+insert into Phone (Login_id, Phone_no) values ('user3', '+91 98765 43103');
+insert into Phone (Login_id, Phone_no) values ('user4', '+91 98765 43104');
+insert into Phone (Login_id, Phone_no) values ('user5', '+91 98765 43105');
+insert into Phone (Login_id, Phone_no) values ('user6', '+91 98765 43106');
+insert into Phone (Login_id, Phone_no) values ('user7', '+91 98765 43107');
+insert into Phone (Login_id, Phone_no) values ('user8', '+91 98765 43108');
+insert into Phone (Login_id, Phone_no) values ('user9', '+91 98765 43109');
+insert into Phone (Login_id, Phone_no) values ('user10', '+91 98765 43110');
+insert into Phone (Login_id, Phone_no) values ('user11', '+91 98765 43111');
+insert into Phone (Login_id, Phone_no) values ('user12', '+91 98765 43112');
+insert into Phone (Login_id, Phone_no) values ('user13', '+91 98765 43113');
+insert into Phone (Login_id, Phone_no) values ('user14', '+91 98765 43114');
+insert into Phone (Login_id, Phone_no) values ('user15', '+91 98765 43115');
+insert into Phone (Login_id, Phone_no) values ('user16', '+91 98765 43116');
+insert into Phone (Login_id, Phone_no) values ('user17', '+91 98765 43117');
+insert into Phone (Login_id, Phone_no) values ('user18', '+91 98765 43118');
+insert into Phone (Login_id, Phone_no) values ('user19', '+91 98765 43119');
+insert into Phone (Login_id, Phone_no) values ('user20', '+91 98765 43120');
+insert into Phone (Login_id, Phone_no) values ('user21', '+91 98765 43121');
+insert into Phone (Login_id, Phone_no) values ('user22', '+91 98765 43122');
+insert into Phone (Login_id, Phone_no) values ('user23', '+91 98765 43123');
+insert into Phone (Login_id, Phone_no) values ('user24', '+91 98765 43124');
+insert into Phone (Login_id, Phone_no) values ('user25', '+91 98765 43125');
+insert into Phone (Login_id, Phone_no) values ('user26', '+91 98765 43126');
+insert into Phone (Login_id, Phone_no) values ('user27', '+91 98765 43127');
+insert into Phone (Login_id, Phone_no) values ('user28', '+91 98765 43128');
+insert into Phone (Login_id, Phone_no) values ('user29', '+91 98765 43129');
+insert into Phone (Login_id, Phone_no) values ('user30', '+91 98765 43130');
+insert into Phone (Login_id, Phone_no) values ('user31', '+91 98765 43131');
+insert into Phone (Login_id, Phone_no) values ('user32', '+91 98765 43132');
+insert into Phone (Login_id, Phone_no) values ('user33', '+91 98765 43133');
+insert into Phone (Login_id, Phone_no) values ('user34', '+91 98765 43134');
+insert into Phone (Login_id, Phone_no) values ('user35', '+91 98765 43135');
+insert into Phone (Login_id, Phone_no) values ('user36', '+91 98765 43136');
+insert into Phone (Login_id, Phone_no) values ('user37', '+91 98765 43137');
+insert into Phone (Login_id, Phone_no) values ('user38', '+91 98765 43138');
+insert into Phone (Login_id, Phone_no) values ('user39', '+91 98765 43139');
+insert into Phone (Login_id, Phone_no) values ('user40', '+91 98765 43140');
+insert into Phone (Login_id, Phone_no) values ('user41', '+91 98765 43141');
+insert into Phone (Login_id, Phone_no) values ('user42', '+91 98765 43142');
+insert into Phone (Login_id, Phone_no) values ('user43', '+91 98765 43143');
+insert into Phone (Login_id, Phone_no) values ('user44', '+91 98765 43144');
+insert into Phone (Login_id, Phone_no) values ('user45', '+91 98765 43145');
+insert into Phone (Login_id, Phone_no) values ('user46', '+91 98765 43146');
+insert into Phone (Login_id, Phone_no) values ('user47', '+91 98765 43147');
+insert into Phone (Login_id, Phone_no) values ('user48', '+91 98765 43148');
+insert into Phone (Login_id, Phone_no) values ('user49', '+91 98765 43149');
+insert into Phone (Login_id, Phone_no) values ('user50', '+91 98765 43150');
+insert into Phone (Login_id, Phone_no) values ('user25', '+91 98765 43154'); 
+insert into Phone (Login_id, Phone_no) values ('user4', '+91 98765 44151'); 
+insert into Phone (Login_id, Phone_no) values ('user10', '+91 98765 43152'); 
+insert into Phone (Login_id, Phone_no) values ('user16', '+91 98765 43153'); 
+insert into Phone (Login_id, Phone_no) values ('user40', '+91 98765 43155');
+insert into Phone (Login_id, Phone_no) values ('user39', '+91 98765 43156'); 
+insert into Phone (Login_id, Phone_no) values ('user30', '+91 98765 43157');
+
+Pincode:
+
+insert into Pincode (Pin, State1, City) values (380001,'Gujarat','Ahmedabad');
+insert into Pincode (Pin, State1, City) values (391440,'Gujarat','Vadodara');
+insert into Pincode (Pin, State1, City) values (321001,'Rajasthan','Bharatpur');
+insert into Pincode (Pin, State1, City) values (263139,'Uttar Pradesh','Haldwani');
+insert into Pincode (Pin, State1, City) values (380058,'Gujarat','Bopal');
+
+RTO_office:
+
+insert into RTO_office (Rto_code, Pin, Street) values ('RJ-05', 321001, 'street201');
+insert into RTO_office (Rto_code, Pin, Street) values ('UP-02', 263139, 'street202');
+insert into RTO_office (Rto_code, Pin, Street) values ('GJ-01', 380001, 'street203');
+insert into RTO_office (Rto_code, Pin, Street) values ('GJ-06', 391440, 'street204');
+insert into RTO_office (Rto_code, Pin, Street) values ('GJ-01', 380058, 'street205');
+
+RTO_phone:
+
+insert into RTO_phone (Pin, Phone_no) values (321001, '+91 98765 40001');
+insert into RTO_phone (Pin, Phone_no) values (380001, '+91 98765 40002');
+insert into RTO_phone (Pin, Phone_no) values (391440, '+91 98765 40003');
+insert into RTO_phone (Pin, Phone_no) values (263139, '+91 98765 40004');
+insert into RTO_phone (Pin, Phone_no) values (380058, '+91 98765 40005');
+insert into RTO_phone (Pin, Phone_no) values (263139, '+91 98765 40006');
+
+User1:
+
+
+insert into User1 (Login_id, Password, Name1, Block_no, Appartment_name, Street, Pin, Rto_code) values ('user1', 'sCURbUn4bA', 'Yancy Alyukin', 101, 'appartment101', 'street101', 380001,'GJ-01');
+insert into User1 (Login_id, Password, Name1, Block_no, Appartment_name, Street, Pin, Rto_code) values ('user2', 'sUIPObZ9CiK', 'Dulcea Clover', 102, 'appartment102', 'street102', 263139,'UP-02');
+insert into User1 (Login_id, Password, Name1, Block_no, Appartment_name, Street, Pin, Rto_code) values ('user3', 'OGprwajkQ', 'Packston Ochterlony', 103, 'appartment103', 'street103', 380001,'GJ-01');
+insert into User1 (Login_id, Password, Name1, Block_no, Appartment_name, Street, Pin, Rto_code) values ('user4', 'jrfF5hT', 'Arnaldo Kimm', 104, 'appartment104', 'street104', 391440,'GJ-06');
+insert into User1 (Login_id, Password, Name1, Block_no, Appartment_name, Street, Pin, Rto_code) values ('user5', 'Bj555Q9', 'Trenton Martinat', 105, 'appartment105', 'street105', 263139,'UP-02');
+insert into User1 (Login_id, Password, Name1, Block_no, Appartment_name, Street, Pin, Rto_code) values ('user6', 'dnXmiqs', 'Tan Dignam', 106, 'appartment106', 'street106', 380001,'GJ-01');
+insert into User1 (Login_id, Password, Name1, Block_no, Appartment_name, Street, Pin, Rto_code) values ('user7', 'BaIqkz', 'Bambi Whettleton', 107, 'appartment107', 'street107', 391440,'GJ-06');
+insert into User1 (Login_id, Password, Name1, Block_no, Appartment_name, Street, Pin, Rto_code) values ('user8', 'd5vFOudj', 'Drona Eastwell', 108, 'appartment108', 'street108', 380001,'GJ-01');
+insert into User1 (Login_id, Password, Name1, Block_no, Appartment_name, Street, Pin, Rto_code) values ('user9', '1SRBKA6', 'Lucho Morsley', 109, 'appartment109', 'street109', 391440,'GJ-06');
+insert into User1 (Login_id, Password, Name1, Block_no, Appartment_name, Street, Pin, Rto_code) values ('user10', '6NDHcFtjeJ', 'Richmound Watkin', 110, 'appartment110', 'street110', 391440,'GJ-06');
+insert into User1 (Login_id, Password, Name1, Block_no, Appartment_name, Street, Pin, Rto_code) values ('user11', 'M6L3PCGME', 'Guthry Duncan', 111, 'appartment111', 'street111', 380001,'GJ-01');
+insert into User1 (Login_id, Password, Name1, Block_no, Appartment_name, Street, Pin, Rto_code) values ('user12', 'zh45zjyEm', 'Melodie Mardee', 112, 'appartment112', 'street112', 321001,'RJ-05');
+insert into User1 (Login_id, Password, Name1, Block_no, Appartment_name, Street, Pin, Rto_code) values ('user13', 'yLay9rD1z', 'Abigale Watsam', 113, 'appartment113', 'street113', 391440,'GJ-06');
+insert into User1 (Login_id, Password, Name1, Block_no, Appartment_name, Street, Pin, Rto_code) values ('user14', 'fCPWEWu', 'Bourke Syder', 114, 'appartment114', 'street114', 263139,'UP-02');
+insert into User1 (Login_id, Password, Name1, Block_no, Appartment_name, Street, Pin, Rto_code) values ('user15', 'YkwpPg', 'Bertina Imos', 115, 'appartment115', 'street115', 380001,'GJ-01');
+insert into User1 (Login_id, Password, Name1, Block_no, Appartment_name, Street, Pin, Rto_code) values ('user16', 'THEvG3QmkD', 'Abigael Han', 116, 'appartment116', 'street116', 380001,'GJ-01');
+insert into User1 (Login_id, Password, Name1, Block_no, Appartment_name, Street, Pin, Rto_code) values ('user17', 'Fhb6fCK', 'Steve Ugolotti', 117, 'appartment117', 'street117', 263139,'UP-02');
+insert into User1 (Login_id, Password, Name1, Block_no, Appartment_name, Street, Pin, Rto_code) values ('user18', 'vCrR78', 'Nathaniel Liveing', 118, 'appartment118', 'street118', 321001,'RJ-05');
+insert into User1 (Login_id, Password, Name1, Block_no, Appartment_name, Street, Pin, Rto_code) values ('user19', '9L1Nvc', 'Sonnie Masdin', 119, 'appartment119', 'street119', 391440,'GJ-06');
+insert into User1 (Login_id, Password, Name1, Block_no, Appartment_name, Street, Pin, Rto_code) values ('user20', '3jiG6zXw', 'Fey Asser', 120, 'appartment120', 'street120', 321001,'RJ-05');
+insert into User1 (Login_id, Password, Name1, Block_no, Appartment_name, Street, Pin, Rto_code) values ('user21', 'ZpCrEgF6', 'Spike Golton', 121, 'appartment121', 'street121', 321001,'RJ-05');
+insert into User1 (Login_id, Password, Name1, Block_no, Appartment_name, Street, Pin, Rto_code) values ('user22', 'NPzUmVXV', 'Hattie Roglieri', 122, 'appartment122', 'street122', 321001,'RJ-05');
+insert into User1 (Login_id, Password, Name1, Block_no, Appartment_name, Street, Pin, Rto_code) values ('user23', 'T4Z94DiV', 'Gian Tredgold', 123, 'appartment123', 'street123', 380001,'GJ-01');
+insert into User1 (Login_id, Password, Name1, Block_no, Appartment_name, Street, Pin, Rto_code) values ('user24', 'h00vFXBm', 'Lisabeth Boxill', 124, 'appartment124', 'street124', 391440,'GJ-06');
+insert into User1 (Login_id, Password, Name1, Block_no, Appartment_name, Street, Pin, Rto_code) values ('user25', 'w3ouwHdN5fD', 'Beulah Cluderay', 125, 'appartment125', 'street125', 380001,'GJ-01');
+insert into User1 (Login_id, Password, Name1, Block_no, Appartment_name, Street, Pin, Rto_code) values ('user26', 'zTowe3vBf4', 'Debor Linger', 126, 'appartment126', 'street126', 380001,'GJ-01');
+insert into User1 (Login_id, Password, Name1, Block_no, Appartment_name, Street, Pin, Rto_code) values ('user27', '9aNDxQ', 'Jackie Shervil', 127, 'appartment127', 'street127', 391440,'GJ-06');
+insert into User1 (Login_id, Password, Name1, Block_no, Appartment_name, Street, Pin, Rto_code) values ('user28', 'Sa09s8sri', 'Vanya Kondratenya', 128, 'appartment128', 'street128', 391440,'GJ-06');
+insert into User1 (Login_id, Password, Name1, Block_no, Appartment_name, Street, Pin, Rto_code) values ('user29', '08V8Iam', 'Ulises Cratere', 129, 'appartment129', 'street129', 263139,'UP-02');
+insert into User1 (Login_id, Password, Name1, Block_no, Appartment_name, Street, Pin, Rto_code) values ('user30', 'kIv89TU', 'Ferdinande Ommundsen', 130, 'appartment130', 'street130', 263139,'UP-02');
+insert into User1 (Login_id, Password, Name1, Block_no, Appartment_name, Street, Pin, Rto_code) values ('user31', 'z1FsBdpY', 'Mellisa Seys', 131, 'appartment131', 'street131', 391440,'GJ-06');
+insert into User1 (Login_id, Password, Name1, Block_no, Appartment_name, Street, Pin, Rto_code) values ('user32', 'koWZQqn', 'Kassie Hirth', 132, 'appartment132', 'street132', 263139,'UP-02');
+insert into User1 (Login_id, Password, Name1, Block_no, Appartment_name, Street, Pin, Rto_code) values ('user33', 'GMf0CPO', 'Goober Glasebrook', 133, 'appartment133', 'street133', 321001,'RJ-05');
+insert into User1 (Login_id, Password, Name1, Block_no, Appartment_name, Street, Pin, Rto_code) values ('user34', 'HdPlbxnk0M4k', 'Carlie Cosbee', 134, 'appartment134', 'street134', 380001,'GJ-01');
+insert into User1 (Login_id, Password, Name1, Block_no, Appartment_name, Street, Pin, Rto_code) values ('user35', '8JyP0t', 'Rodrique Pilger', 135, 'appartment135', 'street135', 263139,'UP-02');
+insert into User1 (Login_id, Password, Name1, Block_no, Appartment_name, Street, Pin, Rto_code) values ('user36', 'vWfrbuCdZi', 'Ofilia Nossent', 136, 'appartment136', 'street136', 263139,'UP-02');
+insert into User1 (Login_id, Password, Name1, Block_no, Appartment_name, Street, Pin, Rto_code) values ('user37', 'V5v1DsDy', 'Bibby Dewbury', 137, 'appartment137', 'street137', 391440,'GJ-06');
+insert into User1 (Login_id, Password, Name1, Block_no, Appartment_name, Street, Pin, Rto_code) values ('user38', 'J6cFnF8IZZo', 'Vita Redit', 138, 'appartment138', 'street138', 321001,'RJ-05');
+insert into User1 (Login_id, Password, Name1, Block_no, Appartment_name, Street, Pin, Rto_code) values ('user39', 'dTqcAoT73sHN', 'Vanda Leversha', 139, 'appartment139', 'street139', 380001,'GJ-01');
+insert into User1 (Login_id, Password, Name1, Block_no, Appartment_name, Street, Pin, Rto_code) values ('user40', 'U2hfaHR8jY', 'Ripley Hunton', 140, 'appartment140', 'street140', 321001,'RJ-05');
+insert into User1 (Login_id, Password, Name1, Block_no, Appartment_name, Street, Pin, Rto_code) values ('user41', 'bUnD9ehuvy', 'Tawnya Tetsall', 141, 'appartment141', 'street141', 321001,'RJ-05');
+insert into User1 (Login_id, Password, Name1, Block_no, Appartment_name, Street, Pin, Rto_code) values ('user42', 'JRPjnDQcURl', 'Harwell Lownds', 142, 'appartment142', 'street142', 391440,'GJ-06');
+insert into User1 (Login_id, Password, Name1, Block_no, Appartment_name, Street, Pin, Rto_code) values ('user43', 'dWFj3S', 'Iris Airs', 143, 'appartment143', 'street143', 321001,'RJ-05');
+insert into User1 (Login_id, Password, Name1, Block_no, Appartment_name, Street, Pin, Rto_code) values ('user44', 'miySRMYlilk', 'Harcourt Hullins', 144, 'appartment144', 'street144', 263139,'UP-02');
+insert into User1 (Login_id, Password, Name1, Block_no, Appartment_name, Street, Pin, Rto_code) values ('user45', 'a3gazoMNR', 'Imogene Leftly', 145, 'appartment145', 'street145', 380001,'GJ-01');
+insert into User1 (Login_id, Password, Name1, Block_no, Appartment_name, Street, Pin, Rto_code) values ('user46', 'cg6rd4', 'Ayn Boskell', 146, 'appartment146', 'street146', 263139,'UP-02');
+insert into User1 (Login_id, Password, Name1, Block_no, Appartment_name, Street, Pin, Rto_code) values ('user47', 'fmMIN4TH', 'Jacquetta Romeo', 147, 'appartment147', 'street147', 263139,'UP-02');
+insert into User1 (Login_id, Password, Name1, Block_no, Appartment_name, Street, Pin, Rto_code) values ('user48', 'UqXUOZBIYS91', 'Venus Fiddler', 148, 'appartment148', 'street148', 263139,'UP-02');
+insert into User1 (Login_id, Password, Name1, Block_no, Appartment_name, Street, Pin, Rto_code) values ('user49', '5YgGEtQV', 'Damita Barkaway', 149, 'appartment149', 'street149', 321001,'RJ-05');
+insert into User1 (Login_id, Password, Name1, Block_no, Appartment_name, Street, Pin, Rto_code) values ('user50', '22mzvzV2Lr', 'Daphna Mackstead', 150, 'appartment150', 'street150', 391440,'GJ-06');
+
+LL_exam:
+
+insert into LL_exam (LL_no, Vehicle_type) values ('GJ021256837592', 'Schooter');
+insert into LL_exam (LL_no, Vehicle_type) values ('GJ021256837593', 'Car');
+insert into LL_exam (LL_no, Vehicle_type) values ('GJ021256837594', 'Schooter');
+insert into LL_exam (LL_no, Vehicle_type) values ('GJ021256837595', 'Motorcycle');
+insert into LL_exam (LL_no, Vehicle_type) values ('GJ021256837596', 'Truck');
+insert into LL_exam (LL_no, Vehicle_type) values ('GJ021256837597', 'Motorcycle');
+insert into LL_exam (LL_no, Vehicle_type) values ('GJ021256837598', 'Motorcycle');
+insert into LL_exam (LL_no, Vehicle_type) values ('GJ021256837599', 'Schooter');
+insert into LL_exam (LL_no, Vehicle_type) values ('GJ021256837600', 'Truck');
+insert into LL_exam (LL_no, Vehicle_type) values ('GJ021256837601', 'Schooter');
+insert into LL_exam (LL_no, Vehicle_type) values ('GJ021256837610', 'Bus');
+insert into LL_exam (LL_no, Vehicle_type) values ('RJ051234567890', 'Truck');
+insert into LL_exam (LL_no, Vehicle_type) values ('RJ051234567891', 'Schooter');
+insert into LL_exam (LL_no, Vehicle_type) values ('RJ051234567892', 'Bus');
+insert into LL_exam (LL_no, Vehicle_type) values ('RJ051234567893', 'Motorcycle');
+insert into LL_exam (LL_no, Vehicle_type) values ('RJ051234567894', 'Truck');
+insert into LL_exam (LL_no, Vehicle_type) values ('RJ051234567895', 'Car');
+insert into LL_exam (LL_no, Vehicle_type) values ('RJ051234567896', 'Bus');
+insert into LL_exam (LL_no, Vehicle_type) values ('RJ051234567897', 'Bus');
+insert into LL_exam (LL_no, Vehicle_type) values ('RJ051234567898', 'Schooter');
+insert into LL_exam (LL_no, Vehicle_type) values ('RJ051234567899', 'Car');
+insert into LL_exam (LL_no, Vehicle_type) values ('RJ051234567900', 'Truck');
+insert into LL_exam (LL_no, Vehicle_type) values ('UP020987654321', 'Motorcycle');
+insert into LL_exam (LL_no, Vehicle_type) values ('UP020987654322', 'Motorcycle');
+insert into LL_exam (LL_no, Vehicle_type) values ('UP020987654323', 'Truck');
+insert into LL_exam (LL_no, Vehicle_type) values ('UP020987654324', 'Schooter');
+insert into LL_exam (LL_no, Vehicle_type) values ('UP020987654325', 'Truck');
+insert into LL_exam (LL_no, Vehicle_type) values ('UP020987654326', 'Schooter');
+insert into LL_exam (LL_no, Vehicle_type) values ('UP020987654327', 'Bus');
+insert into LL_exam (LL_no, Vehicle_type) values ('UP020987654328', 'Truck');
+insert into LL_exam (LL_no, Vehicle_type) values ('UP020987654329', 'Truck');
+insert into LL_exam (LL_no, Vehicle_type) values ('UP020987654330', 'Motorcycle');
+insert into LL_exam (LL_no, Vehicle_type) values ('UP020987654331', 'Motorcycle');
+insert into LL_exam (LL_no, Vehicle_type) values ('GJ010987654321', 'Motorcycle');
+insert into LL_exam (LL_no, Vehicle_type) values ('GJ010987654322', 'Bus');
+insert into LL_exam (LL_no, Vehicle_type) values ('GJ010987654323', 'Car');
+insert into LL_exam (LL_no, Vehicle_type) values ('GJ010987654324', 'Schooter');
+insert into LL_exam (LL_no, Vehicle_type) values ('GJ010987654325', 'Truck');
+insert into LL_exam (LL_no, Vehicle_type) values ('GJ010987654326', 'Motorcycle');
+insert into LL_exam (LL_no, Vehicle_type) values ('GJ010987654327', 'Schooter');
+
+Exam:
+
+insert into Exam (LL_no, Attempt_no, Date1, Result1) values ('GJ021256837592', 2, '2022-05-16', 'Pass');
+insert into Exam (LL_no, Attempt_no, Date1, Result1) values ('GJ021256837593', 2, '2022-05-19', 'Fail');
+insert into Exam (LL_no, Attempt_no, Date1, Result1) values ('GJ021256837594', 2, '2023-04-22', 'Pass');
+insert into Exam (LL_no, Attempt_no, Date1, Result1) values ('GJ021256837595', 2, '2022-06-08', 'Pass');
+insert into Exam (LL_no, Attempt_no, Date1, Result1) values ('GJ021256837596', 1, '2022-11-10', 'Pass');
+insert into Exam (LL_no, Attempt_no, Date1, Result1) values ('GJ021256837597', 2, '2022-09-26', 'Fail');
+insert into Exam (LL_no, Attempt_no, Date1, Result1) values ('GJ021256837598', 1, '2022-08-20', 'Pass');
+insert into Exam (LL_no, Attempt_no, Date1, Result1) values ('GJ021256837599', 1, '2022-11-11', 'Fail');
+insert into Exam (LL_no, Attempt_no, Date1, Result1) values ('GJ021256837600', 1, '2022-07-17', 'Pass');
+insert into Exam (LL_no, Attempt_no, Date1, Result1) values ('GJ021256837601', 1, '2023-04-01', 'Fail');
+insert into Exam (LL_no, Attempt_no, Date1, Result1) values ('GJ021256837610', 2, '2023-02-24', 'Fail');
+insert into Exam (LL_no, Attempt_no, Date1, Result1) values ('RJ051234567890', 2, '2022-06-04', 'Fail');
+insert into Exam (LL_no, Attempt_no, Date1, Result1) values ('RJ051234567891', 1, '2022-10-24', 'Fail');
+insert into Exam (LL_no, Attempt_no, Date1, Result1) values ('RJ051234567892', 1, '2022-10-11', 'Fail');
+insert into Exam (LL_no, Attempt_no, Date1, Result1) values ('RJ051234567893', 2, '2022-10-30', 'Pass');
+insert into Exam (LL_no, Attempt_no, Date1, Result1) values ('RJ051234567894', 1, '2022-11-11', 'Fail');
+insert into Exam (LL_no, Attempt_no, Date1, Result1) values ('RJ051234567895', 1, '2022-10-21', 'Fail');
+insert into Exam (LL_no, Attempt_no, Date1, Result1) values ('RJ051234567896', 1, '2022-08-13', 'Fail');
+insert into Exam (LL_no, Attempt_no, Date1, Result1) values ('RJ051234567897', 2, '2022-08-03', 'Pass');
+insert into Exam (LL_no, Attempt_no, Date1, Result1) values ('RJ051234567898', 1, '2022-10-16', 'Fail');
+insert into Exam (LL_no, Attempt_no, Date1, Result1) values ('RJ051234567899', 1, '2022-08-17', 'Pass');
+insert into Exam (LL_no, Attempt_no, Date1, Result1) values ('RJ051234567900', 2, '2022-09-25', 'Pass');
+insert into Exam (LL_no, Attempt_no, Date1, Result1) values ('UP020987654321', 1, '2022-04-25', 'Pass');
+insert into Exam (LL_no, Attempt_no, Date1, Result1) values ('UP020987654322', 2, '2022-06-27', 'Pass');
+insert into Exam (LL_no, Attempt_no, Date1, Result1) values ('UP020987654323', 1, '2022-09-04', 'Pass');
+insert into Exam (LL_no, Attempt_no, Date1, Result1) values ('UP020987654324', 2, '2023-03-15', 'Fail');
+insert into Exam (LL_no, Attempt_no, Date1, Result1) values ('UP020987654325', 2, '2022-09-18', 'Pass');
+insert into Exam (LL_no, Attempt_no, Date1, Result1) values ('UP020987654326', 1, '2022-10-31', 'Pass');
+insert into Exam (LL_no, Attempt_no, Date1, Result1) values ('UP020987654327', 1, '2022-10-10', 'Pass');
+insert into Exam (LL_no, Attempt_no, Date1, Result1) values ('UP020987654328', 2, '2023-02-25', 'Fail');
+insert into Exam (LL_no, Attempt_no, Date1, Result1) values ('UP020987654329', 2, '2022-11-19', 'Pass');
+insert into Exam (LL_no, Attempt_no, Date1, Result1) values ('UP020987654330', 1, '2022-05-22', 'Fail');
+insert into Exam (LL_no, Attempt_no, Date1, Result1) values ('UP020987654331', 2, '2022-12-02', 'Pass');
+insert into Exam (LL_no, Attempt_no, Date1, Result1) values ('GJ010987654321', 1, '2022-05-14', 'Fail');
+insert into Exam (LL_no, Attempt_no, Date1, Result1) values ('GJ010987654322', 2, '2023-01-12', 'Fail');
+insert into Exam (LL_no, Attempt_no, Date1, Result1) values ('GJ010987654323', 2, '2022-07-28', 'Pass');
+insert into Exam (LL_no, Attempt_no, Date1, Result1) values ('GJ010987654324', 2, '2022-06-26', 'Fail');
+insert into Exam (LL_no, Attempt_no, Date1, Result1) values ('GJ010987654325', 1, '2022-09-21', 'Pass');
+insert into Exam (LL_no, Attempt_no, Date1, Result1) values ('GJ010987654326', 1, '2023-01-16', 'Pass');
+insert into Exam (LL_no, Attempt_no, Date1, Result1) values ('GJ010987654327', 1, '2022-10-09', 'Fail');
+
+Employee:
+
+insert into Employee (Employee_id, Appartment_name, Block_no, Street, Name1, Joining_date, Gender, Dob, Pin, Rto_code) values ('employee01', 'appartment201', 201, 'street201', 'Aurilia', '2023-03-06', 'F', '1996-12-02', 321001,'RJ-05');
+insert into Employee (Employee_id, Appartment_name, Block_no, Street, Name1, Joining_date, Gender, Dob, Pin, Rto_code) values ('employee02', 'appartment202', 202, 'street202', 'Amelita', '2021-05-13', 'F', '1998-02-23', 263139,'UP-02');
+insert into Employee (Employee_id, Appartment_name, Block_no, Street, Name1, Joining_date, Gender, Dob, Pin, Rto_code) values ('employee03', 'appartment203', 203, 'street203', 'Sherm', '2021-01-30', 'M', '1997-02-05', 263139,'UP-02');
+insert into Employee (Employee_id, Appartment_name, Block_no, Street, Name1, Joining_date, Gender, Dob, Pin, Rto_code) values ('employee04', 'appartment204', 204, 'street204', 'Julee', '2023-04-05', 'F', '1997-06-25', 380001,'GJ-01');
+insert into Employee (Employee_id, Appartment_name, Block_no, Street, Name1, Joining_date, Gender, Dob, Pin, Rto_code) values ('employee05', 'appartment205', 205, 'street205', 'Zorine', '2022-07-07', 'F', '2000-06-03', 380001,'GJ-01');
+insert into Employee (Employee_id, Appartment_name, Block_no, Street, Name1, Joining_date, Gender, Dob, Pin, Rto_code) values ('employee06', 'appartment206', 206, 'street206', 'Elberta', '2022-08-16', 'F', '1999-01-29', 321001,'RJ-05');
+insert into Employee (Employee_id, Appartment_name, Block_no, Street, Name1, Joining_date, Gender, Dob, Pin, Rto_code) values ('employee07', 'appartment207', 207, 'street207', 'Bart', '2023-02-11', 'M', '1998-06-15', 380001,'GJ-01');
+insert into Employee (Employee_id, Appartment_name, Block_no, Street, Name1, Joining_date, Gender, Dob, Pin, Rto_code) values ('employee08', 'appartment208', 208, 'street208', 'Mollee', '2023-03-05', 'F', '1999-08-17', 321001,'RJ-05');
+insert into Employee (Employee_id, Appartment_name, Block_no, Street, Name1, Joining_date, Gender, Dob, Pin, Rto_code) values ('employee09', 'appartment209', 209, 'street209', 'Riobard', '2023-03-20', 'M', '1999-08-18', 321001,'RJ-05');
+insert into Employee (Employee_id, Appartment_name, Block_no, Street, Name1, Joining_date, Gender, Dob, Pin, Rto_code) values ('employee10', 'appartment210', 210, 'street210', 'Bianka', '2022-02-09', 'F', '1998-08-09', 263139,'UP-02');
+insert into Employee (Employee_id, Appartment_name, Block_no, Street, Name1, Joining_date, Gender, Dob, Pin, Rto_code) values ('employee11', 'appartment211', 211, 'street211', 'Cyndie', '2022-07-17', 'F', '1996-12-05', 391440,'GJ-06');
+insert into Employee (Employee_id, Appartment_name, Block_no, Street, Name1, Joining_date, Gender, Dob, Pin, Rto_code) values ('employee12', 'appartment212', 212, 'street212', 'Wilma', '2022-07-18', 'F', '1996-02-19', 391440,'GJ-06');
+insert into Employee (Employee_id, Appartment_name, Block_no, Street, Name1, Joining_date, Gender, Dob, Pin, Rto_code) values ('employee13', 'appartment213', 213, 'street213', 'Ernst', '2022-01-03', 'M', '2000-05-28', 263139,'UP-02');
+insert into Employee (Employee_id, Appartment_name, Block_no, Street, Name1, Joining_date, Gender, Dob, Pin, Rto_code) values ('employee14', 'appartment214', 214, 'street214', 'Aubrie', '2022-04-13', 'F', '1998-09-14', 263139,'UP-02');
+insert into Employee (Employee_id, Appartment_name, Block_no, Street, Name1, Joining_date, Gender, Dob, Pin, Rto_code) values ('employee15', 'appartment215', 215, 'street215', 'Sonny', '2022-01-28', 'M', '1996-06-04', 321001,'RJ-05');
+insert into Employee (Employee_id, Appartment_name, Block_no, Street, Name1, Joining_date, Gender, Dob, Pin, Rto_code) values ('employee16', 'appartment216', 216, 'street216', 'Loleta', '2021-09-12', 'F', '1995-06-20', 380001,'GJ-01');
+insert into Employee (Employee_id, Appartment_name, Block_no, Street, Name1, Joining_date, Gender, Dob, Pin, Rto_code) values ('employee17', 'appartment217', 217, 'street217', 'Skye', '2021-07-13', 'M', '1995-01-19', 321001,'RJ-05');
+insert into Employee (Employee_id, Appartment_name, Block_no, Street, Name1, Joining_date, Gender, Dob, Pin, Rto_code) values ('employee18', 'appartment218', 218, 'street218', 'Artair', '2022-03-12', 'M', '1995-10-14', 391440,'GJ-06');
+insert into Employee (Employee_id, Appartment_name, Block_no, Street, Name1, Joining_date, Gender, Dob, Pin, Rto_code) values ('employee19', 'appartment219', 219, 'street219', 'Jorie', '2021-11-26', 'F', '1995-11-12', 263139,'UP-02');
+insert into Employee (Employee_id, Appartment_name, Block_no, Street, Name1, Joining_date, Gender, Dob, Pin, Rto_code) values ('employee20', 'appartment220', 220, 'street220', 'Maible', '2021-06-30', 'F', '1998-05-19', 380001,'GJ-01');
+insert into Employee (Employee_id, Appartment_name, Block_no, Street, Name1, Joining_date, Gender, Dob, Pin, Rto_code) values ('employee21', 'appartment221', 221, 'street221', 'Adolphus', '2021-09-20', 'M', '2000-01-31', 380001,'GJ-01');
+insert into Employee (Employee_id, Appartment_name, Block_no, Street, Name1, Joining_date, Gender, Dob, Pin, Rto_code) values ('employee22', 'appartment222', 222, 'street222', 'Ludovika', '2023-02-03', 'F', '1998-11-09', 391440,'GJ-06');
+insert into Employee (Employee_id, Appartment_name, Block_no, Street, Name1, Joining_date, Gender, Dob, Pin, Rto_code) values ('employee23', 'appartment223', 223, 'street223', 'Lolita', '2021-12-30', 'F', '1997-07-26', 321001,'RJ-05');
+insert into Employee (Employee_id, Appartment_name, Block_no, Street, Name1, Joining_date, Gender, Dob, Pin, Rto_code) values ('employee24', 'appartment224', 224, 'street224', 'Mildrid', '2023-01-24', 'F', '2000-08-04', 321001,'RJ-05');
+insert into Employee (Employee_id, Appartment_name, Block_no, Street, Name1, Joining_date, Gender, Dob, Pin, Rto_code) values ('employee25', 'appartment225', 225, 'street225', 'Felicity', '2022-04-04', 'F', '1995-10-08', 391440,'GJ-06');
+insert into Employee (Employee_id, Appartment_name, Block_no, Street, Name1, Joining_date, Gender, Dob, Pin, Rto_code) values ('employee26', 'appartment226', 226, 'street226', 'Winthrop', '2021-05-02', 'M', '1996-09-05', 391440,'GJ-06');
+insert into Employee (Employee_id, Appartment_name, Block_no, Street, Name1, Joining_date, Gender, Dob, Pin, Rto_code) values ('employee27', 'appartment227', 227, 'street227', 'Quentin', '2023-01-30', 'F', '1996-05-08', 263139,'UP-02');
+insert into Employee (Employee_id, Appartment_name, Block_no, Street, Name1, Joining_date, Gender, Dob, Pin, Rto_code) values ('employee28', 'appartment228', 228, 'street228', 'Ignaz', '2021-01-27', 'M', '1999-08-23', 380001,'GJ-01');
+insert into Employee (Employee_id, Appartment_name, Block_no, Street, Name1, Joining_date, Gender, Dob, Pin, Rto_code) values ('employee29', 'appartment229', 229, 'street229', 'Marlena', '2022-02-16', 'F', '1997-10-06', 263139,'UP-02');
+insert into Employee (Employee_id, Appartment_name, Block_no, Street, Name1, Joining_date, Gender, Dob, Pin, Rto_code) values ('employee30', 'appartment230', 230, 'street230', 'Dagmar', '2022-08-15', 'F', '2000-04-29', 321001,'RJ-05');
+insert into Employee (Employee_id, Appartment_name, Block_no, Street, Name1, Joining_date, Gender, Dob, Pin, Rto_code) values ('employee31', 'appartment231', 231, 'street231', 'Sherlock', '2022-06-21', 'M', '1999-04-23', 263139,'UP-02');
+insert into Employee (Employee_id, Appartment_name, Block_no, Street, Name1, Joining_date, Gender, Dob, Pin, Rto_code) values ('employee32', 'appartment232', 232, 'street232', 'Gusty', '2021-09-15', 'F', '1996-03-16', 380001,'GJ-01');
+insert into Employee (Employee_id, Appartment_name, Block_no, Street, Name1, Joining_date, Gender, Dob, Pin, Rto_code) values ('employee33', 'appartment233', 233, 'street233', 'Amye', '2022-08-22', 'F', '1996-03-06', 391440,'GJ-06');
+insert into Employee (Employee_id, Appartment_name, Block_no, Street, Name1, Joining_date, Gender, Dob, Pin, Rto_code) values ('employee34', 'appartment234', 234, 'street234', 'Darcy', '2022-09-24', 'F', '1999-06-24', 321001,'RJ-05');
+insert into Employee (Employee_id, Appartment_name, Block_no, Street, Name1, Joining_date, Gender, Dob, Pin, Rto_code) values ('employee35', 'appartment235', 235, 'street235', 'Blakeley', '2021-05-31', 'F', '1995-04-23', 380001,'GJ-01');
+insert into Employee (Employee_id, Appartment_name, Block_no, Street, Name1, Joining_date, Gender, Dob, Pin, Rto_code) values ('employee36', 'appartment236', 236, 'street236', 'Sula', '2021-04-18', 'F', '2000-12-02', 391440,'GJ-06');
+insert into Employee (Employee_id, Appartment_name, Block_no, Street, Name1, Joining_date, Gender, Dob, Pin, Rto_code) values ('employee37', 'appartment237', 237, 'street237', 'Ilse', '2022-08-08', 'F', '1997-01-04', 380001,'GJ-01');
+insert into Employee (Employee_id, Appartment_name, Block_no, Street, Name1, Joining_date, Gender, Dob, Pin, Rto_code) values ('employee38', 'appartment238', 238, 'street238', 'Bruis', '2022-05-14', 'M', '1997-05-18', 263139,'UP-02');
+insert into Employee (Employee_id, Appartment_name, Block_no, Street, Name1, Joining_date, Gender, Dob, Pin, Rto_code) values ('employee39', 'appartment239', 239, 'street239', 'Guthry', '2022-01-25', 'M', '1998-10-11', 391440,'GJ-06');
+insert into Employee (Employee_id, Appartment_name, Block_no, Street, Name1, Joining_date, Gender, Dob, Pin, Rto_code) values ('employee40', 'appartment240', 240, 'street240', 'Alaric', '2022-04-03', 'M', '2000-08-01', 380001,'GJ-01');
+insert into Employee (Employee_id, Appartment_name, Block_no, Street, Name1, Joining_date, Gender, Dob, Pin, Rto_code) values ('employee41', 'appartment241', 241, 'street241', 'Luise', '2022-08-11', 'F', '1998-07-21', 321001,'RJ-05');
+insert into Employee (Employee_id, Appartment_name, Block_no, Street, Name1, Joining_date, Gender, Dob, Pin, Rto_code) values ('employee42', 'appartment242', 242, 'street242', 'Dawna', '2021-07-23', 'F', '1997-12-08', 391440,'GJ-06');
+insert into Employee (Employee_id, Appartment_name, Block_no, Street, Name1, Joining_date, Gender, Dob, Pin, Rto_code) values ('employee43', 'appartment243', 243, 'street243', 'Germaine', '2022-07-15', 'M', '1998-06-12', 391440,'GJ-06');
+insert into Employee (Employee_id, Appartment_name, Block_no, Street, Name1, Joining_date, Gender, Dob, Pin, Rto_code) values ('employee44', 'appartment244', 244, 'street244', 'Web', '2022-12-29', 'M', '1995-03-12', 321001,'RJ-05');
+insert into Employee (Employee_id, Appartment_name, Block_no, Street, Name1, Joining_date, Gender, Dob, Pin, Rto_code) values ('employee45', 'appartment245', 245, 'street245', 'Sonia', '2022-09-10', 'F', '2000-01-15', 263139,'UP-02');
+insert into Employee (Employee_id, Appartment_name, Block_no, Street, Name1, Joining_date, Gender, Dob, Pin, Rto_code) values ('employee46', 'appartment246', 246, 'street246', 'Arlena', '2022-01-27', 'F', '1995-03-14', 321001,'RJ-05');
+insert into Employee (Employee_id, Appartment_name, Block_no, Street, Name1, Joining_date, Gender, Dob, Pin, Rto_code) values ('employee47', 'appartment247', 247, 'street247', 'Ophelia', '2022-10-22', 'F', '1998-07-20', 380001,'GJ-01');
+insert into Employee (Employee_id, Appartment_name, Block_no, Street, Name1, Joining_date, Gender, Dob, Pin, Rto_code) values ('employee48', 'appartment248', 248, 'street248', 'Ruddy', '2021-06-15', 'M', '1995-07-27', 263139,'UP-02');
+insert into Employee (Employee_id, Appartment_name, Block_no, Street, Name1, Joining_date, Gender, Dob, Pin, Rto_code) values ('employee49', 'appartment249', 249, 'street249', 'Luce', '2021-03-21', 'M', '1996-02-20', 380001,'GJ-01');
+insert into Employee (Employee_id, Appartment_name, Block_no, Street, Name1, Joining_date, Gender, Dob, Pin, Rto_code) values ('employee50', 'appartment250', 250, 'street250', 'Ellette', '2021-11-16', 'F', '1999-10-25', 321001,'RJ-05');
+insert into Employee (Employee_id, Appartment_name, Block_no, Street, Name1, Joining_date, Gender, Dob, Pin, Rto_code) values ('employee51', 'appartment251', 251, 'street251', 'Raj', '2021-04-21', 'M', '1997-02-20', 380058,'GJ-01');
+insert into Employee (Employee_id, Appartment_name, Block_no, Street, Name1, Joining_date, Gender, Dob, Pin, Rto_code) values ('employee52', 'appartment252', 252, 'street252', 'Param', '2021-01-16', 'M', '1999-11-25', 380058,'GJ-01');
+
+
+Employee_phone:
+
+insert into Employee_phone (Employee_id, Phone_no) values ('employee01', '+91 98765 43201');
+insert into Employee_phone (Employee_id, Phone_no) values ('employee02', '+91 98765 43202');
+insert into Employee_phone (Employee_id, Phone_no) values ('employee03', '+91 98765 43203');
+insert into Employee_phone (Employee_id, Phone_no) values ('employee04', '+91 98765 43204');
+insert into Employee_phone (Employee_id, Phone_no) values ('employee05', '+91 98765 43205');
+insert into Employee_phone (Employee_id, Phone_no) values ('employee06', '+91 98765 43206');
+insert into Employee_phone (Employee_id, Phone_no) values ('employee07', '+91 98765 43207');
+insert into Employee_phone (Employee_id, Phone_no) values ('employee08', '+91 98765 43208');
+insert into Employee_phone (Employee_id, Phone_no) values ('employee09', '+91 98765 43209');
+insert into Employee_phone (Employee_id, Phone_no) values ('employee10', '+91 98765 43210');
+insert into Employee_phone (Employee_id, Phone_no) values ('employee11', '+91 98765 43211');
+insert into Employee_phone (Employee_id, Phone_no) values ('employee12', '+91 98765 43212');
+insert into Employee_phone (Employee_id, Phone_no) values ('employee13', '+91 98765 43213');
+insert into Employee_phone (Employee_id, Phone_no) values ('employee14', '+91 98765 43214');
+insert into Employee_phone (Employee_id, Phone_no) values ('employee15', '+91 98765 43215');
+insert into Employee_phone (Employee_id, Phone_no) values ('employee16', '+91 98765 43216');
+insert into Employee_phone (Employee_id, Phone_no) values ('employee17', '+91 98765 43217');
+insert into Employee_phone (Employee_id, Phone_no) values ('employee18', '+91 98765 43218');
+insert into Employee_phone (Employee_id, Phone_no) values ('employee19', '+91 98765 43219');
+insert into Employee_phone (Employee_id, Phone_no) values ('employee20', '+91 98765 43220');
+insert into Employee_phone (Employee_id, Phone_no) values ('employee21', '+91 98765 43221');
+insert into Employee_phone (Employee_id, Phone_no) values ('employee22', '+91 98765 43222');
+insert into Employee_phone (Employee_id, Phone_no) values ('employee23', '+91 98765 43223');
+insert into Employee_phone (Employee_id, Phone_no) values ('employee24', '+91 98765 43224');
+insert into Employee_phone (Employee_id, Phone_no) values ('employee25', '+91 98765 43225');
+insert into Employee_phone (Employee_id, Phone_no) values ('employee26', '+91 98765 43226');
+insert into Employee_phone (Employee_id, Phone_no) values ('employee27', '+91 98765 43227');
+insert into Employee_phone (Employee_id, Phone_no) values ('employee28', '+91 98765 43228');
+insert into Employee_phone (Employee_id, Phone_no) values ('employee29', '+91 98765 43229');
+insert into Employee_phone (Employee_id, Phone_no) values ('employee30', '+91 98765 43230');
+insert into Employee_phone (Employee_id, Phone_no) values ('employee31', '+91 98765 43231');
+insert into Employee_phone (Employee_id, Phone_no) values ('employee32', '+91 98765 43232');
+insert into Employee_phone (Employee_id, Phone_no) values ('employee33', '+91 98765 43233');
+insert into Employee_phone (Employee_id, Phone_no) values ('employee34', '+91 98765 43234');
+insert into Employee_phone (Employee_id, Phone_no) values ('employee35', '+91 98765 43235');
+insert into Employee_phone (Employee_id, Phone_no) values ('employee36', '+91 98765 43236');
+insert into Employee_phone (Employee_id, Phone_no) values ('employee37', '+91 98765 43237');
+insert into Employee_phone (Employee_id, Phone_no) values ('employee38', '+91 98765 43238');
+insert into Employee_phone (Employee_id, Phone_no) values ('employee39', '+91 98765 43239');
+insert into Employee_phone (Employee_id, Phone_no) values ('employee40', '+91 98765 43240');
+insert into Employee_phone (Employee_id, Phone_no) values ('employee41', '+91 98765 43241');
+insert into Employee_phone (Employee_id, Phone_no) values ('employee42', '+91 98765 43242');
+insert into Employee_phone (Employee_id, Phone_no) values ('employee43', '+91 98765 43243');
+insert into Employee_phone (Employee_id, Phone_no) values ('employee44', '+91 98765 43244');
+insert into Employee_phone (Employee_id, Phone_no) values ('employee45', '+91 98765 43245');
+insert into Employee_phone (Employee_id, Phone_no) values ('employee46', '+91 98765 43246');
+insert into Employee_phone (Employee_id, Phone_no) values ('employee47', '+91 98765 43247');
+insert into Employee_phone (Employee_id, Phone_no) values ('employee48', '+91 98765 43248');
+insert into Employee_phone (Employee_id, Phone_no) values ('employee49', '+91 98765 43249');
+insert into Employee_phone (Employee_id, Phone_no) values ('employee50', '+91 98765 43250');
+insert into Employee_phone (Employee_id, Phone_no) values ('employee51', '+91 98765 43251');
+insert into Employee_phone (Employee_id, Phone_no) values ('employee52', '+91 98765 43252');
+insert into Employee_phone (Employee_id, Phone_no) values ('employee02', '+91 98765 43251'); 
+insert into Employee_phone (Employee_id, Phone_no) values ('employee10', '+91 98765 43252');
+insert into Employee_phone (Employee_id, Phone_no) values ('employee20', '+91 98765 43253');
+
+Licence:
+
+insert into Licence (Login_id, Dob, Vehicle_type, Holder_name, Block_no, Appartment_name, Street, Pin) values ('user1', '2022-05-24', 'Schooter', 'Regan Stonebanks', 101, 'Appartment101', 'Kim', 380058);
+insert into Licence (Login_id, Dob, Vehicle_type, Holder_name, Block_no, Appartment_name, Street, Pin) values ('user2', '2023-03-05', 'Truck', 'Bobbie Desforges', 102, 'Appartment102', '5th', 263139);
+insert into Licence (Login_id, Dob, Vehicle_type, Holder_name, Block_no, Appartment_name, Street, Pin) values ('user3', '2022-05-31', 'Car', 'Margi Wain', 103, 'Appartment103', 'Quincy', 380058);
+insert into Licence (Login_id, Dob, Vehicle_type, Holder_name, Block_no, Appartment_name, Street, Pin) values ('user4', '2022-05-31', 'Truck', 'Itch Gerleit', 104, 'Appartment104', 'Lindbergh', 391440);
+insert into Licence (Login_id, Dob, Vehicle_type, Holder_name, Block_no, Appartment_name, Street, Pin) values ('user5', '2023-03-20', 'Truck', 'Mikey Chansonnau', 105, 'Appartment105', 'Scoville', 263139);
+insert into Licence (Login_id, Dob, Vehicle_type, Holder_name, Block_no, Appartment_name, Street, Pin) values ('user6', '2022-10-02', 'Truck', 'Bernard Orum', 106, 'Appartment106', 'Everett', 380058);
+insert into Licence (Login_id, Dob, Vehicle_type, Holder_name, Block_no, Appartment_name, Street, Pin) values ('user7', '2022-07-23', 'Bike', 'Corrianne Lyosik', 107, 'Appartment107', 'Monterey', 391440);
+insert into Licence (Login_id, Dob, Vehicle_type, Holder_name, Block_no, Appartment_name, Street, Pin) values ('user8', '2022-07-08', 'Car', 'Dareen Hemshall', 108, 'Appartment108', 'Huxley', 380058);
+insert into Licence (Login_id, Dob, Vehicle_type, Holder_name, Block_no, Appartment_name, Street, Pin) values ('user9', '2022-08-31', 'Bike', 'Jacquelyn Tranter', 109, 'Appartment109', 'Hanson', 391440);
+insert into Licence (Login_id, Dob, Vehicle_type, Holder_name, Block_no, Appartment_name, Street, Pin) values ('user10', '2023-01-23', 'Bike', 'Ced Petrol', 110, 'Appartment110', 'Fair Oaks', 391440);
+insert into Licence (Login_id, Dob, Vehicle_type, Holder_name, Block_no, Appartment_name, Street, Pin) values ('user11', '2022-08-17', 'Schooter', 'Tedie Hun', 111, 'Appartment111', 'Claremont', 380058);
+insert into Licence (Login_id, Dob, Vehicle_type, Holder_name, Block_no, Appartment_name, Street, Pin) values ('user12', '2022-06-29', 'Schooter', 'Ted Manclark', 112, 'Appartment112', 'Golf Course', 321001);
+insert into Licence (Login_id, Dob, Vehicle_type, Holder_name, Block_no, Appartment_name, Street, Pin) values ('user13', '2022-10-02', 'Truck', 'Nobe Willgrass', 113, 'Appartment113', 'Scott', 391440);
+insert into Licence (Login_id, Dob, Vehicle_type, Holder_name, Block_no, Appartment_name, Street, Pin) values ('user14', '2022-12-11', 'Truck', 'Morten Bohan', 114, 'Appartment114', 'Bunting', 263139);
+insert into Licence (Login_id, Dob, Vehicle_type, Holder_name, Block_no, Appartment_name, Street, Pin) values ('user15', '2023-01-23', 'Bike', 'Tana Capinetti', 115, 'Appartment115', '1st', 380058);
+insert into Licence (Login_id, Dob, Vehicle_type, Holder_name, Block_no, Appartment_name, Street, Pin) values ('user16', '2022-10-06', 'Bike', 'Ollie Dibbe', 116, 'Appartment116', 'Hudson', 380058);
+insert into Licence (Login_id, Dob, Vehicle_type, Holder_name, Block_no, Appartment_name, Street, Pin) values ('user17', '2022-09-12', 'Schooter', 'Randal Firth', 117, 'Appartment117', 'Fordem', 263139);
+insert into Licence (Login_id, Dob, Vehicle_type, Holder_name, Block_no, Appartment_name, Street, Pin) values ('user18', '2022-08-09', 'Schooter', 'Mavra Clandillon', 118, 'Appartment118', 'Fremont',  321001);
+insert into Licence (Login_id, Dob, Vehicle_type, Holder_name, Block_no, Appartment_name, Street, Pin) values ('user19', '2022-12-20', 'Bike', 'Jarred Sodor', 119, 'Appartment119', 'Mayer', 391440);
+insert into Licence (Login_id, Dob, Vehicle_type, Holder_name, Block_no, Appartment_name, Street, Pin) values ('user20', '2022-05-16', 'Car', 'Gladys Mughal', 120, 'Appartment120', 'Melvin',  321001);
+insert into Licence (Login_id, Dob, Vehicle_type, Holder_name, Block_no, Appartment_name, Street, Pin) values ('user21', '2022-09-16', 'Truck', 'Veronike Stein', 121, 'Appartment121', 'Muir',  321001);
+insert into Licence (Login_id, Dob, Vehicle_type, Holder_name, Block_no, Appartment_name, Street, Pin) values ('user22', '2022-09-21', 'Bus', 'Serena Crowch', 122, 'Appartment122', 'Novick',  321001);
+insert into Licence (Login_id, Dob, Vehicle_type, Holder_name, Block_no, Appartment_name, Street, Pin) values ('user23', '2022-08-20', 'Truck', 'Karine Probat', 123, 'Appartment123', 'Armistice', 380058);
+insert into Licence (Login_id, Dob, Vehicle_type, Holder_name, Block_no, Appartment_name, Street, Pin) values ('user24', '2022-05-17', 'Truck', 'Silvie Woodroof', 124, 'Appartment124', 'Dennis', 391440);
+insert into Licence (Login_id, Dob, Vehicle_type, Holder_name, Block_no, Appartment_name, Street, Pin) values ('user25', '2022-05-04', 'Truck', 'Darrin Forrington', 125, 'Appartment125', 'Delaware', 380058);
+insert into Licence (Login_id, Dob, Vehicle_type, Holder_name, Block_no, Appartment_name, Street, Pin) values ('user26', '2022-12-20', 'Truck', 'Bobby Lumb', 126, 'Appartment126', 'Memorial', 380058);
+insert into Licence (Login_id, Dob, Vehicle_type, Holder_name, Block_no, Appartment_name, Street, Pin) values ('user27', '2022-11-20', 'Truck', 'Gare Burgill', 127, 'Appartment127', 'Onsgard',  391440);
+insert into Licence (Login_id, Dob, Vehicle_type, Holder_name, Block_no, Appartment_name, Street, Pin) values ('user28', '2023-04-18', 'Truck', 'Monique Bowcher', 128, 'Appartment128', 'Talmadge',  391440);
+insert into Licence (Login_id, Dob, Vehicle_type, Holder_name, Block_no, Appartment_name, Street, Pin) values ('user29', '2023-03-30', 'Bus', 'Wernher Rawlins', 129, 'Appartment129', 'Londonderry',  263139);
+insert into Licence (Login_id, Dob, Vehicle_type, Holder_name, Block_no, Appartment_name, Street, Pin) values ('user30', '2023-02-09', 'Truck', 'Fidela Hazard', 130, 'Appartment130', 'Prairie Rose', 263139);
+insert into Licence (Login_id, Dob, Vehicle_type, Holder_name, Block_no, Appartment_name, Street, Pin) values ('user31', '2022-08-26', 'Schooter', 'Clim Loughan', 131, 'Appartment131', 'Anderson', 391440);
+insert into Licence (Login_id, Dob, Vehicle_type, Holder_name, Block_no, Appartment_name, Street, Pin) values ('user32', '2023-03-07', 'Bus', 'Marybeth Issacoff', 132, 'Appartment132', 'Di Loreto', 263139);
+insert into Licence (Login_id, Dob, Vehicle_type, Holder_name, Block_no, Appartment_name, Street, Pin) values ('user33', '2022-10-31', 'Bike', 'Daveta Alyonov', 133, 'Appartment133', 'Anzinger',321001);
+insert into Licence (Login_id, Dob, Vehicle_type, Holder_name, Block_no, Appartment_name, Street, Pin) values ('user34', '2022-07-27', 'Schooter', 'Bertha David', 134, 'Appartment134', 'Schurz', 380058);
+insert into Licence (Login_id, Dob, Vehicle_type, Holder_name, Block_no, Appartment_name, Street, Pin) values ('user35', '2023-01-28', 'Car', 'Aurel Lantaff', 135, 'Appartment135', 'Valley Edge', 263139);
+insert into Licence (Login_id, Dob, Vehicle_type, Holder_name, Block_no, Appartment_name, Street, Pin) values ('user36', '2022-10-28', 'Bike', 'Else Marquet', 136, 'Appartment136', 'Dapin', 263139);
+insert into Licence (Login_id, Dob, Vehicle_type, Holder_name, Block_no, Appartment_name, Street, Pin) values ('user37', '2023-01-05', 'Truck', 'Brook Paskins', 137, 'Appartment137', 'Village', 391440);
+insert into Licence (Login_id, Dob, Vehicle_type, Holder_name, Block_no, Appartment_name, Street, Pin) values ('user38', '2022-05-09', 'Car', 'Gloriane Fazan', 138, 'Appartment138', 'Heath', 321001);
+insert into Licence (Login_id, Dob, Vehicle_type, Holder_name, Block_no, Appartment_name, Street, Pin) values ('user39', '2022-11-29', 'Car', 'Jolynn Sones', 139, 'Appartment139', 'Fisk', 380058);
+insert into Licence (Login_id, Dob, Vehicle_type, Holder_name, Block_no, Appartment_name, Street, Pin) values ('user40', '2023-02-17', 'Car', 'Barri Ladbrook', 140, 'Appartment140', 'Elmside',321001);
+
+Vehicle_registration:
+
+insert into Vehicle_registration (Registration_no,Permit_duedate, Registration_type, No_platecolour, Purchase_invoiceno, Manufacturer_name, Vehicle_colour, Owner_id, Application_no,Login_id, Permit_type) values ('GJ06 EA 6304','2042-08-05', 'Commercial', 'Yellow', 17222139,'M1', 'Black', 'owner1', 450201,'user1', 'State Level Permit');
+insert into Vehicle_registration (Registration_no,Permit_duedate, Registration_type, No_platecolour, Purchase_invoiceno, Manufacturer_name, Vehicle_colour, Owner_id, Application_no,Login_id, Permit_type) values ('GJ01 BQ 3578','2043-01-11', 'Private', 'White', 65073752, 'M2','Brown','owner2', 450202,'user2', 'All India Permit');
+insert into Vehicle_registration (Registration_no,Permit_duedate, Registration_type, No_platecolour, Purchase_invoiceno, Manufacturer_name, Vehicle_colour, Owner_id, Application_no,Login_id, Permit_type) values ('GJ06 EA 6305','2043-02-18', 'Commercial', 'Green', 54304836, 'M3','Black', 'owner3', 450203,'user3', 'State Level Permit');
+insert into Vehicle_registration (Registration_no,Permit_duedate, Registration_type, No_platecolour, Purchase_invoiceno, Manufacturer_name, Vehicle_colour, Owner_id, Application_no,Login_id, Permit_type) values ('RJ05 HC 2706','2042-06-22', 'Private', 'White', 55022822,'M4', 'Brown', 'owner4', 450204,'user4', 'All India Permit');
+insert into Vehicle_registration (Registration_no,Permit_duedate, Registration_type, No_platecolour, Purchase_invoiceno, Manufacturer_name, Vehicle_colour, Owner_id, Application_no,Login_id, Permit_type) values ('UP02 HF 2360','2043-04-03', 'Private', 'Yellow', 79772190,'M5', 'White', 'owner5', 450205,'user5', 'All India Permit');
+insert into Vehicle_registration (Registration_no,Permit_duedate, Registration_type, No_platecolour, Purchase_invoiceno, Manufacturer_name, Vehicle_colour, Owner_id, Application_no,Login_id, Permit_type) values ('UP02 JF 2356','2042-10-24', 'Commercial', 'Green', 83645886,'M6', 'Black', 'owner6', 450206,'user6', 'State Level Permit');
+insert into Vehicle_registration (Registration_no,Permit_duedate, Registration_type, No_platecolour, Purchase_invoiceno, Manufacturer_name, Vehicle_colour, Owner_id, Application_no,Login_id, Permit_type) values ('UP02 HF 2366','2042-05-26', 'Commercial', 'White', 99670402,'M7', 'Green', 'owner7', 450207,'user7', 'State Level Permit');
+insert into Vehicle_registration (Registration_no,Permit_duedate, Registration_type, No_platecolour, Purchase_invoiceno, Manufacturer_name, Vehicle_colour, Owner_id, Application_no,Login_id, Permit_type) values ('GJ06 EA 6303','2042-11-18', 'Commercial', 'Yellow', 20505394,'M8', 'Black', 'owner8', 450208,'user8', 'State Level Permit');
+insert into Vehicle_registration (Registration_no,Permit_duedate, Registration_type, No_platecolour, Purchase_invoiceno, Manufacturer_name, Vehicle_colour, Owner_id, Application_no,Login_id, Permit_type) values ('UP02 HF 2363','2042-06-12', 'Commercial', 'Green', 73161107,'M9', 'Red', 'owner9', 450209,'user9', 'State Level Permit');
+insert into Vehicle_registration (Registration_no,Permit_duedate, Registration_type, No_platecolour, Purchase_invoiceno, Manufacturer_name, Vehicle_colour, Owner_id, Application_no,Login_id, Permit_type) values ('GJ06 EA 6411','2042-09-07', 'Private', 'Yellow', 66485614,'M10', 'Yellow', 'owner10', 450210,'user10', 'All India Permit');
+insert into Vehicle_registration (Registration_no,Permit_duedate, Registration_type, No_platecolour, Purchase_invoiceno, Manufacturer_name, Vehicle_colour, Owner_id, Application_no,Login_id, Permit_type) values ('GJ01 BQ 3475','2043-01-15', 'Commercial', 'Green', 82102307,'M11', 'Green', 'owner11', 450211,'user11', 'State Level Permit');
+insert into Vehicle_registration (Registration_no,Permit_duedate, Registration_type, No_platecolour, Purchase_invoiceno, Manufacturer_name, Vehicle_colour, Owner_id, Application_no,Login_id, Permit_type) values ('GJ06 EA 6711','2042-09-11', 'Commercial', 'Green', 84735892,'M12', 'Brown', 'owner12', 450212,'user12', 'State Level Permit');
+insert into Vehicle_registration (Registration_no,Permit_duedate, Registration_type, No_platecolour, Purchase_invoiceno, Manufacturer_name, Vehicle_colour, Owner_id, Application_no,Login_id, Permit_type) values ('UP02 HF 2561','2043-03-06', 'Commercial', 'Yellow', 48697862,'M14', 'Green', 'owner13', 450213,'user13', 'State Level Permit');
+insert into Vehicle_registration (Registration_no,Permit_duedate, Registration_type, No_platecolour, Purchase_invoiceno, Manufacturer_name, Vehicle_colour, Owner_id, Application_no,Login_id, Permit_type) values ('UP02 HF 2364','2042-11-14', 'Private', 'White', 87364368,'M15', 'Green', 'owner14', 450214,'user14', 'All India Permit');
+insert into Vehicle_registration (Registration_no,Permit_duedate, Registration_type, No_platecolour, Purchase_invoiceno, Manufacturer_name, Vehicle_colour, Owner_id, Application_no,Login_id, Permit_type) values ('UP02 HF 2259','2043-01-01', 'Private', 'White', 22209560,'M16', 'Yellow', 'owner15', 450215,'user15', 'All India Permit');
+insert into Vehicle_registration (Registration_no,Permit_duedate, Registration_type, No_platecolour, Purchase_invoiceno, Manufacturer_name, Vehicle_colour, Owner_id, Application_no,Login_id, Permit_type) values ('GJ06 EA 6311','2042-05-07', 'Private', 'White', 38979872,'M17', 'Black', 'owner16', 450216,'user16', 'All India Permit');
+insert into Vehicle_registration (Registration_no,Permit_duedate, Registration_type, No_platecolour, Purchase_invoiceno, Manufacturer_name, Vehicle_colour, Owner_id, Application_no,Login_id, Permit_type) values ('RJ05 HC 2401','2042-11-24', 'Private', 'White', 64988365,'M18', 'Red', 'owner17', 450217,'user17', 'All India Permit');
+insert into Vehicle_registration (Registration_no,Permit_duedate, Registration_type, No_platecolour, Purchase_invoiceno, Manufacturer_name, Vehicle_colour, Owner_id, Application_no,Login_id, Permit_type) values ('UP02 HF 2659','2042-06-10', 'Private', 'Green', 26542934,'M19', 'Red', 'owner18', 450218,'user18', 'All India Permit');
+insert into Vehicle_registration (Registration_no,Permit_duedate, Registration_type, No_platecolour, Purchase_invoiceno, Manufacturer_name, Vehicle_colour, Owner_id, Application_no,Login_id, Permit_type) values ('GJ06 EA 7308','2042-12-19', 'Private', 'Green', 94192187, 'M20','Red', 'owner19', 450219,'user19', 'All India Permit');
+insert into Vehicle_registration (Registration_no,Permit_duedate, Registration_type, No_platecolour, Purchase_invoiceno, Manufacturer_name, Vehicle_colour, Owner_id, Application_no,Login_id, Permit_type) values ('UP02 HF 2365','2042-11-22', 'Commercial', 'Yellow', 76579254,'M21', 'Blue', 'owner20', 450220,'user20', 'State Level Permit');
+insert into Vehicle_registration (Registration_no,Permit_duedate, Registration_type, No_platecolour, Purchase_invoiceno, Manufacturer_name, Vehicle_colour, Owner_id, Application_no,Login_id, Permit_type) values ('GJ01 BQ 3576','2043-04-14', 'Commercial', 'White', 66816029, 'M22','Yellow', 'owner21', 450221,'user21', 'State Level Permit');
+insert into Vehicle_registration (Registration_no,Permit_duedate, Registration_type, No_platecolour, Purchase_invoiceno, Manufacturer_name, Vehicle_colour, Owner_id, Application_no,Login_id, Permit_type) values ('GJ06 EA 7309','2042-10-20', 'Private', 'Green', 65713475,'M23', 'Red', 'owner22', 450222,'user22', 'All India Permit');
+insert into Vehicle_registration (Registration_no,Permit_duedate, Registration_type, No_platecolour, Purchase_invoiceno, Manufacturer_name, Vehicle_colour, Owner_id, Application_no,Login_id, Permit_type) values ('UP02 HF 2392','2042-10-03', 'Commercial', 'Green', 18514432,'M24', 'Yellow', 'owner23', 450223,'user23', 'State Level Permit');
+insert into Vehicle_registration (Registration_no,Permit_duedate, Registration_type, No_platecolour, Purchase_invoiceno, Manufacturer_name, Vehicle_colour, Owner_id, Application_no,Login_id, Permit_type) values ('UP02 HF 2361','2042-08-06', 'Private', 'white', 13232315, 'M25','Yellow', 'owner24', 450224,'user24', 'All India Permit');
+insert into Vehicle_registration (Registration_no,Permit_duedate, Registration_type, No_platecolour, Purchase_invoiceno, Manufacturer_name, Vehicle_colour, Owner_id, Application_no,Login_id, Permit_type) values ('GJ01 BQ 3476','2042-06-07', 'Private', 'White', 41482085,'M26', 'Red', 'owner25', 450225, 'user25','All India Permit');
+insert into Vehicle_registration (Registration_no,Permit_duedate, Registration_type, No_platecolour, Purchase_invoiceno, Manufacturer_name, Vehicle_colour, Owner_id, Application_no,Login_id, Permit_type) values ('GJ01 BQ 3473','2042-09-09', 'Private', 'Green', 37260235,'M27', 'White', 'owner26', 450226,'user26', 'All India Permit');
+insert into Vehicle_registration (Registration_no,Permit_duedate, Registration_type, No_platecolour, Purchase_invoiceno, Manufacturer_name, Vehicle_colour, Owner_id, Application_no,Login_id, Permit_type) values ('GJ06 EA 6310','2042-12-20', 'Commercial', 'Green', 64183221,'M28', 'Brown', 'owner37', 450227,'user27', 'State Level Permit');
+insert into Vehicle_registration (Registration_no,Permit_duedate, Registration_type, No_platecolour, Purchase_invoiceno, Manufacturer_name, Vehicle_colour, Owner_id, Application_no,Login_id, Permit_type) values ('UP02 HF 2359','2042-12-15', 'Private', 'white', 19739312,'M29', 'Blue', 'owner28', 450228,'user28', 'All India Permit');
+insert into Vehicle_registration (Registration_no,Permit_duedate, Registration_type, No_platecolour, Purchase_invoiceno, Manufacturer_name, Vehicle_colour, Owner_id, Application_no,Login_id, Permit_type) values ('RJ05 HC 2400','2042-09-29', 'Commercial', 'Yellow', 83474690,'M30', 'Blue', 'owner30', 450229,'user29', 'State Level Permit');
+insert into Vehicle_registration (Registration_no,Permit_duedate, Registration_type, No_platecolour, Purchase_invoiceno, Manufacturer_name, Vehicle_colour, Owner_id, Application_no,Login_id, Permit_type) values ('GJ06 EA 6308','2043-03-07', 'Commercial', 'Yellow', 11889863,'M31', 'Green', 'owner29', 450230,'user30', 'State Level Permit');
+insert into Vehicle_registration (Registration_no,Permit_duedate, Registration_type, No_platecolour, Purchase_invoiceno, Manufacturer_name, Vehicle_colour, Owner_id, Application_no,Login_id, Permit_type) values ('GJ01 BQ 3478','2043-03-28', 'Private', 'Green', 99924101,'M32', 'Black', 'owner32', 450231,'user31', 'All India Permit');
+insert into Vehicle_registration (Registration_no,Permit_duedate, Registration_type, No_platecolour, Purchase_invoiceno, Manufacturer_name, Vehicle_colour, Owner_id, Application_no,Login_id, Permit_type) values ('RJ05 HC 2806','2042-12-19', 'Commercial', 'yellow', 22456688,'M33', 'White', 'owner31', 450232,'user32', 'State Level Permit');
+insert into Vehicle_registration (Registration_no,Permit_duedate, Registration_type, No_platecolour, Purchase_invoiceno, Manufacturer_name, Vehicle_colour, Owner_id, Application_no,Login_id, Permit_type) values ('GJ01 BQ 3480','2042-08-16', 'Commercial', 'yellow', 16118130,'M34', 'Blue', 'owner33', 450233,'user33', 'State Level Permit');
+insert into Vehicle_registration (Registration_no,Permit_duedate, Registration_type, No_platecolour, Purchase_invoiceno, Manufacturer_name, Vehicle_colour, Owner_id, Application_no,Login_id, Permit_type) values ('RJ05 HC 2406','2042-12-06', 'Private', 'White', 33042712,'M35', 'Black', 'owner34', 450234,'user34', 'All India Permit');
+insert into Vehicle_registration (Registration_no,Permit_duedate, Registration_type, No_platecolour, Purchase_invoiceno, Manufacturer_name, Vehicle_colour, Owner_id, Application_no,Login_id, Permit_type) values ('RJ05 JC 2404','2043-02-16', 'Commercial', 'yellow', 38415879,'M36', 'Black', 'owner38', 450235,'user35', 'State Level Permit');
+insert into Vehicle_registration (Registration_no,Permit_duedate, Registration_type, No_platecolour, Purchase_invoiceno, Manufacturer_name, Vehicle_colour, Owner_id, Application_no,Login_id, Permit_type) values ('UP02 HF 2362','2042-10-01', 'Commercial', 'yellow', 96886488, 'M37','Brown', 'owner35', 450236, 'user36','State Level Permit');
+insert into Vehicle_registration (Registration_no,Permit_duedate, Registration_type, No_platecolour, Purchase_invoiceno, Manufacturer_name, Vehicle_colour, Owner_id, Application_no,Login_id, Permit_type) values ('RJ05 HC 2405','2043-04-07', 'Private', 'white', 31308690,'M38', 'Brown', 'owner37', 450237,'user37', 'All India Permit');
+insert into Vehicle_registration (Registration_no,Permit_duedate, Registration_type, No_platecolour, Purchase_invoiceno, Manufacturer_name, Vehicle_colour, Owner_id, Application_no,Login_id, Permit_type) values ('RJ05 HA 2405','2042-06-13', 'Commercial', 'yellow', 83205979, 'M38','Green', 'owner36', 450238,'user38', 'State Level Permit');
+insert into Vehicle_registration (Registration_no,Permit_duedate, Registration_type, No_platecolour, Purchase_invoiceno, Manufacturer_name, Vehicle_colour, Owner_id, Application_no,Login_id, Permit_type) values ('UP02 HF 2356','2042-08-04', 'Private', 'Green', 85169990, 'M39','Green', 'owner40', 450239,'user39', 'All India Permit');
+insert into Vehicle_registration (Registration_no,Permit_duedate, Registration_type, No_platecolour, Purchase_invoiceno, Manufacturer_name, Vehicle_colour, Owner_id, Application_no,Login_id, Permit_type) values ('RJ05 HC 2404','2043-03-22', 'Private', 'White', 76862522,'M40', 'Green', 'owner39', 450240,'user40', 'All India Permit');
+-- insert into Vehicle_registration (Registration_no,Permit_duedate, Registration_type, No_platecolour, Purchase_invoiceno, Manufacturer_name, Vehicle_colour, Owner_id, Application_no,Login_id, Permit_type) values ('UP02 HF 2357','2043-03-22', 'Private', 'White', 76862523,'M41', 'Green', 'owner39', 450240,'user40', 'All India Permit');
+
+
+Payment:
+
+insert into Payment (Application_no, Amount, Payment_date, Cash_flag, Login_id) values (450201, 13381, '2022-12-01', 0, 'user27');
+insert into Payment (Application_no, Amount, Payment_date, Cash_flag, Login_id) values (450202, 17750, '2022-08-25', 0, 'user50');
+insert into Payment (Application_no, Amount, Payment_date, Cash_flag, Login_id) values (450203, 11314, '2022-10-22', 0, 'user5');
+insert into Payment (Application_no, Amount, Payment_date, Cash_flag, Login_id) values (450204, 1201, '2023-03-03', 0, 'user14');
+insert into Payment (Application_no, Amount, Payment_date, Cash_flag, Login_id) values (450205, 8066, '2023-01-05', 0, 'user4');
+insert into Payment (Application_no, Amount, Payment_date, Cash_flag, Login_id) values (450206, 16442, '2022-08-08', 0, 'user2');
+insert into Payment (Application_no, Amount, Payment_date, Cash_flag, Login_id) values (450207, 14797, '2022-05-06', 0, 'user11');
+insert into Payment (Application_no, Amount, Payment_date, Cash_flag, Login_id) values (450208, 19675, '2023-03-20', 0, 'user33');
+insert into Payment (Application_no, Amount, Payment_date, Cash_flag, Login_id) values (450209, 6914, '2022-11-22', 0, 'user12');
+insert into Payment (Application_no, Amount, Payment_date, Cash_flag, Login_id) values (450210, 18767, '2022-10-17', 0, 'user24');
+insert into Payment (Application_no, Amount, Payment_date, Cash_flag, Login_id) values (450211, 18709, '2023-03-21', 0, 'user41');
+insert into Payment (Application_no, Amount, Payment_date, Cash_flag, Login_id) values (450212, 3715, '2022-05-01', 0, 'user27');
+insert into Payment (Application_no, Amount, Payment_date, Cash_flag, Login_id) values (450213, 364, '2023-03-29', 0, 'user32');
+insert into Payment (Application_no, Amount, Payment_date, Cash_flag, Login_id) values (450214, 15402, '2022-06-08', 0, 'user8');
+insert into Payment (Application_no, Amount, Payment_date, Cash_flag, Login_id) values (450215, 15811, '2023-02-08', 0, 'user19');
+insert into Payment (Application_no, Amount, Payment_date, Cash_flag, Login_id) values (450216, 1816, '2022-11-29', 0, 'user44');
+insert into Payment (Application_no, Amount, Payment_date, Cash_flag, Login_id) values (450217, 19336, '2022-05-31', 0, 'user40');
+insert into Payment (Application_no, Amount, Payment_date, Cash_flag, Login_id) values (450218, 18677, '2022-12-03', 0, 'user15');
+insert into Payment (Application_no, Amount, Payment_date, Cash_flag, Login_id) values (450219, 17700, '2023-01-15', 0, 'user41');
+insert into Payment (Application_no, Amount, Payment_date, Cash_flag, Login_id) values (450220, 3379, '2023-04-05', 0, 'user47');
+insert into Payment (Application_no, Amount, Payment_date, Cash_flag, Login_id) values (450221, 17085, '2022-11-20', 0, 'user42');
+insert into Payment (Application_no, Amount, Payment_date, Cash_flag, Login_id) values (450222, 8337, '2022-12-10', 0, 'user16');
+insert into Payment (Application_no, Amount, Payment_date, Cash_flag, Login_id) values (450223, 9726, '2022-10-28', 0, 'user1');
+insert into Payment (Application_no, Amount, Payment_date, Cash_flag, Login_id) values (450224, 17724, '2022-06-28', 0, 'user3');
+insert into Payment (Application_no, Amount, Payment_date, Cash_flag, Login_id) values (450225, 15076, '2023-02-25', 0, 'user14');
+insert into Payment (Application_no, Amount, Payment_date, Cash_flag, Login_id) values (450226, 17885, '2023-01-03', 0, 'user29');
+insert into Payment (Application_no, Amount, Payment_date, Cash_flag, Login_id) values (450227, 8982, '2022-07-28', 0, 'user22');
+insert into Payment (Application_no, Amount, Payment_date, Cash_flag, Login_id) values (450228, 17315, '2022-07-01', 0, 'user43');
+insert into Payment (Application_no, Amount, Payment_date, Cash_flag, Login_id) values (450229, 14586, '2023-03-10', 0, 'user2');
+insert into Payment (Application_no, Amount, Payment_date, Cash_flag, Login_id) values (450230, 4983, '2023-04-07', 0, 'user6');
+insert into Payment (Application_no, Amount, Payment_date, Cash_flag, Login_id) values (450231, 18493, '2022-05-06', 0, 'user39');
+insert into Payment (Application_no, Amount, Payment_date, Cash_flag, Login_id) values (450232, 6936, '2022-07-18', 0, 'user29');
+insert into Payment (Application_no, Amount, Payment_date, Cash_flag, Login_id) values (450233, 14089, '2022-05-25', 0, 'user14');
+insert into Payment (Application_no, Amount, Payment_date, Cash_flag, Login_id) values (450234, 13299, '2023-04-21', 0, 'user16');
+insert into Payment (Application_no, Amount, Payment_date, Cash_flag, Login_id) values (450235, 16390, '2022-11-27', 0, 'user44');
+insert into Payment (Application_no, Amount, Payment_date, Cash_flag, Login_id) values (450236, 5923, '2022-07-17', 0, 'user47');
+insert into Payment (Application_no, Amount, Payment_date, Cash_flag, Login_id) values (450237, 14040, '2022-12-15', 0, 'user40');
+insert into Payment (Application_no, Amount, Payment_date, Cash_flag, Login_id) values (450238, 866, '2023-04-17', 0, 'user40');
+insert into Payment (Application_no, Amount, Payment_date, Cash_flag, Login_id) values (450239, 19734, '2022-06-07', 0, 'user24');
+insert into Payment (Application_no, Amount, Payment_date, Cash_flag, Login_id) values (450240, 11966, '2022-07-27', 0, 'user9');
+insert into Payment (Application_no, Amount, Payment_date, Cash_flag, Login_id) values (450241, 12941, '2022-10-04', 1, 'user3');
+insert into Payment (Application_no, Amount, Payment_date, Cash_flag, Login_id) values (450242, 15658, '2023-02-19', 1, 'user47');
+insert into Payment (Application_no, Amount, Payment_date, Cash_flag, Login_id) values (450243, 431, '2022-11-03', 1, 'user14');
+insert into Payment (Application_no, Amount, Payment_date, Cash_flag, Login_id) values (450244, 14931, '2023-01-02', 1, 'user9');
+insert into Payment (Application_no, Amount, Payment_date, Cash_flag, Login_id) values (450245, 17506, '2023-03-24', 1, 'user36');
+insert into Payment (Application_no, Amount, Payment_date, Cash_flag, Login_id) values (450246, 1571, '2022-12-28', 1, 'user1');
+insert into Payment (Application_no, Amount, Payment_date, Cash_flag, Login_id) values (450247, 4937, '2022-06-06', 1, 'user27');
+insert into Payment (Application_no, Amount, Payment_date, Cash_flag, Login_id) values (450248, 208, '2022-05-16', 1,'user8');
+insert into Payment (Application_no, Amount, Payment_date, Cash_flag, Login_id) values (450249, 16356, '2022-07-19', 1, 'user45');
+insert into Payment (Application_no, Amount, Payment_date, Cash_flag, Login_id) values (450250, 6147, '2023-02-19', 1, 'user26');
+
+insert into Payment (Application_no, Amount, Payment_date, Cash_flag, Login_id) values (450261, 46147, '2023-02-19', 1, 'user1');
+insert into Payment (Application_no, Amount, Payment_date, Cash_flag, Login_id) values (450262, 61447, '2023-02-28', 1, 'user2');
+insert into Payment (Application_no, Amount, Payment_date, Cash_flag, Login_id) values (450263, 61247, '2023-02-10', 1, 'user3');
+insert into Payment (Application_no, Amount, Payment_date, Cash_flag, Login_id) values (450264, 62147, '2023-02-14', 1, 'user4');
+insert into Payment (Application_no, Amount, Payment_date, Cash_flag, Login_id) values (450265, 61472, '2023-02-16', 1, 'user5');
+insert into Payment (Application_no, Amount, Payment_date, Cash_flag, Login_id) values (450266, 61847, '2023-02-17', 1, 'user6');
+insert into Payment (Application_no, Amount, Payment_date, Cash_flag, Login_id) values (450267, 86147, '2023-02-18', 1, 'user7');
+insert into Payment (Application_no, Amount, Payment_date, Cash_flag, Login_id) values (450268, 61547, '2023-02-23', 1, 'user8');
+insert into Payment (Application_no, Amount, Payment_date, Cash_flag, Login_id) values (450269, 647, '2023-02-25', 1, 'user9');
+insert into Payment (Application_no, Amount, Payment_date, Cash_flag, Login_id) values (450270, 614, '2023-02-27', 1, 'user10');
+
+insert into Payment (Application_no, Amount, Payment_date, Cash_flag, Login_id) values (450271, 1147, '2023-02-19', 1, 'user11');
+insert into Payment (Application_no, Amount, Payment_date, Cash_flag, Login_id) values (450272, 5147, '2023-02-19', 1, 'user12');
+insert into Payment (Application_no, Amount, Payment_date, Cash_flag, Login_id) values (450273, 8147, '2023-02-19', 1, 'user13');
+insert into Payment (Application_no, Amount, Payment_date, Cash_flag, Login_id) values (450274, 3147, '2023-02-19', 1, 'user14');
+insert into Payment (Application_no, Amount, Payment_date, Cash_flag, Login_id) values (450275, 617, '2023-02-19', 1, 'user15');
+insert into Payment (Application_no, Amount, Payment_date, Cash_flag, Login_id) values (450276, 3147, '2023-02-19', 1, 'user16');
+insert into Payment (Application_no, Amount, Payment_date, Cash_flag, Login_id) values (450277, 7147, '2023-02-19', 1, 'user17');
+insert into Payment (Application_no, Amount, Payment_date, Cash_flag, Login_id) values (450278, 672, '2023-02-19', 1, 'user18');
+insert into Payment (Application_no, Amount, Payment_date, Cash_flag, Login_id) values (450279, 6847, '2023-02-19', 1, 'user19');
+insert into Payment (Application_no, Amount, Payment_date, Cash_flag, Login_id) values (450280, 6947, '2023-02-19', 1, 'user20');
+insert into Payment (Application_no, Amount, Payment_date, Cash_flag, Login_id) values (450281, 6047, '2023-02-19', 1, 'user21');
+insert into Payment (Application_no, Amount, Payment_date, Cash_flag, Login_id) values (450282, 6347, '2023-02-19', 1, 'user22');
+insert into Payment (Application_no, Amount, Payment_date, Cash_flag, Login_id) values (450283, 647, '2023-02-19', 1, 'user23');
+insert into Payment (Application_no, Amount, Payment_date, Cash_flag, Login_id) values (450284, 147, '2023-02-19', 1, 'user24');
+insert into Payment (Application_no, Amount, Payment_date, Cash_flag, Login_id) values (450285, 1427, '2023-02-19', 1, 'user25');
+insert into Payment (Application_no, Amount, Payment_date, Cash_flag, Login_id) values (450286, 1247, '2023-02-19', 1, 'user26');
+insert into Payment (Application_no, Amount, Payment_date, Cash_flag, Login_id) values (450287, 1347, '2023-02-19', 1, 'user27');
+insert into Payment (Application_no, Amount, Payment_date, Cash_flag, Login_id) values (450288, 1547, '2023-02-19', 1, 'user28');
+insert into Payment (Application_no, Amount, Payment_date, Cash_flag, Login_id) values (450289, 1147, '2023-02-19', 1, 'user29');
+insert into Payment (Application_no, Amount, Payment_date, Cash_flag, Login_id) values (450290, 1147, '2023-02-19', 1, 'user30');
+
+Owner1:
+
+insert into Owner1 (Owner_id, Gov_idname,Gov_idno) values ('owner1', 'Pan', 'AABCE2771'),
+('owner2', 'Pan', 'AABCE2759E'),
+('owner3', 'Pan', 'AABCE2752S'),
+('owner4', 'Pan', 'AABCE2770R'),
+('owner5', 'Pan', 'AABCE2762E'),
+('owner6', 'Pan', 'AABCE2751H'),
+('owner7', 'Aadhar', '3895 9723 1389'),
+('owner8', 'Pan', 'AABCE2743D'),
+('owner9', 'Pan', 'AABCE2760J'),
+('owner10', 'Aadhar', '3895 9723 1400'),
+('owner11', 'Pan', 'AABCE2763M'),
+('owner12', 'Aadhar', '3895 9723 1417'),
+('owner13', 'Aadhar', '3895 9723 1387'),
+('owner14', 'Pan', 'AABCE2744RK'),
+('owner15', 'Pan', 'AABCE2769BI'),
+('owner16', 'Pan', 'AABCE2759U'),
+('owner17', 'Pan', 'AABCE2755Y'),
+('owner18', 'Aadhar', '3895 9723 1415'),
+('owner19', 'Pan', 'AABCE2743C'),
+('owner20', 'Aadhar', '3895 9723 1382'),
+('owner21', 'Aadhar', '3895 9723 1380'),
+('owner22', 'Aadhar', '3895 9723 1406'),
+('owner23', 'Pan', 'AABCE2767E'),
+('owner24', 'Aadhar', '3895 9723 1389'),
+('owner25', 'Aadhar', '3895 9723 1407'),
+('owner26', 'Pan', 'AABCE2771Q'),
+('owner27', 'Aadhar', '3895 9723 1420'),
+('owner28', 'Aadhar', '3895 9723 1395'),
+('owner29', 'Aadhar', '3895 9723 1406'),
+('owner30', 'Pan', 'AABCE2745W'),
+('owner31', 'Aadhar', '3895 9723 1400'),
+('owner32', 'Aadhar', '3895 9723 1413'),
+('owner33', 'Pan', 'AABCE2752I'),
+('owner34', 'Aadhar', '3895 9723 1419'),
+('owner35', 'Aadhar', '3895 9723 1380'),
+('owner36', 'Pan', 'AABCE2775O'),
+('owner37', 'Pan', 'AABCE2749P'),
+('owner38', 'Pan', 'AABCE2756J'),
+('owner39', 'Aadhar', '3895 9723 1398'),
+('owner40', 'Pan', 'AABCE2755R');
+
+Duplicate:
+
+insert into Duplicate (DDL_no, DDL_issuedate, DDL_validity, Login_id) values ('GJ056837592', '2022-09-13', '2042-05-12', 'user1');
+insert into Duplicate (DDL_no, DDL_issuedate, DDL_validity, Login_id) values ('GJ056837593', '2022-05-09', '2042-10-06', 'user2');
+insert into Duplicate (DDL_no, DDL_issuedate, DDL_validity, Login_id) values ('GJ056837594', '2022-06-29', '2042-06-02', 'user3');
+insert into Duplicate (DDL_no, DDL_issuedate, DDL_validity, Login_id) values ('GJ056837595', '2023-04-17', '2042-05-31', 'user4');
+insert into Duplicate (DDL_no, DDL_issuedate, DDL_validity, Login_id) values ('GJ056837596', '2022-12-17', '2042-12-29', 'user5');
+insert into Duplicate (DDL_no, DDL_issuedate, DDL_validity, Login_id) values ('RJ01234567891', '2022-08-15', '2042-09-18', 'user6');
+insert into Duplicate (DDL_no, DDL_issuedate, DDL_validity, Login_id) values ('RJ01234567892', '2022-09-04', '2042-08-01', 'user7');
+insert into Duplicate (DDL_no, DDL_issuedate, DDL_validity, Login_id) values ('RJ01234567893', '2022-09-01', '2042-12-23', 'user8');
+insert into Duplicate (DDL_no, DDL_issuedate, DDL_validity, Login_id) values ('RJ01234567894', '2022-11-29', '2043-04-08', 'user9');
+insert into Duplicate (DDL_no, DDL_issuedate, DDL_validity, Login_id) values ('RJ01234567895', '2022-06-09', '2042-11-27', 'user10');
+insert into Duplicate (DDL_no, DDL_issuedate, DDL_validity, Login_id) values ('UP00987654321', '2022-06-12', '2042-06-17', 'user11');
+insert into Duplicate (DDL_no, DDL_issuedate, DDL_validity, Login_id) values ('UP00987654322', '2022-10-25', '2043-02-20', 'user12');
+insert into Duplicate (DDL_no, DDL_issuedate, DDL_validity, Login_id) values ('UP00987654323', '2022-07-08', '2042-06-30', 'user13');
+insert into Duplicate (DDL_no, DDL_issuedate, DDL_validity, Login_id) values ('UP00987654324', '2022-11-14', '2042-09-20', 'user14');
+insert into Duplicate (DDL_no, DDL_issuedate, DDL_validity, Login_id) values ('UP00987654325', '2022-07-13', '2043-04-02', 'user15');
+insert into Duplicate (DDL_no, DDL_issuedate, DDL_validity, Login_id) values ('GJ00987654321', '2022-10-27', '2042-10-19', 'user16');
+insert into Duplicate (DDL_no, DDL_issuedate, DDL_validity, Login_id) values ('GJ00987654322', '2022-07-18', '2042-10-13', 'user17');
+insert into Duplicate (DDL_no, DDL_issuedate, DDL_validity, Login_id) values ('GJ00987654323', '2023-01-19', '2042-06-21', 'user18');
+insert into Duplicate (DDL_no, DDL_issuedate, DDL_validity, Login_id) values ('GJ00987654324', '2022-12-31', '2042-06-19', 'user19');
+insert into Duplicate (DDL_no, DDL_issuedate, DDL_validity, Login_id) values ('GJ00987654325', '2022-05-24', '2042-05-08', 'user20');
+
+Insurance:
+
+insert into Insurance (Insurance_no, Registering_authority, Puc_status, Insurance_upto, Fitness_upto, MV_taxupto, Finance, Registration_no) values (143737, 'Lueilwitz and Sons', 'Available', '2022-05-26', '2042-05-27', '2043-04-06', 32503, 'GJ06 EA 6304');
+insert into Insurance (Insurance_no, Registering_authority, Puc_status, Insurance_upto, Fitness_upto, MV_taxupto, Finance, Registration_no) values (630745, 'Torp-Koss', 'Not Available', '2022-06-14', '2042-12-27', '2042-12-16', 99889, 'GJ01 BQ 3578');
+insert into Insurance (Insurance_no, Registering_authority, Puc_status, Insurance_upto, Fitness_upto, MV_taxupto, Finance, Registration_no) values (837171, 'Cole LLC', 'Available', '2022-11-24', '2042-11-06', '2043-03-29', 92558, 'GJ06 EA 6305');
+insert into Insurance (Insurance_no, Registering_authority, Puc_status, Insurance_upto, Fitness_upto, MV_taxupto, Finance, Registration_no) values (799996, 'Bode and Sons', 'Available', '2022-08-09', '2043-03-13', '2042-07-15', 39712, 'RJ05 HC 2706');
+insert into Insurance (Insurance_no, Registering_authority, Puc_status, Insurance_upto, Fitness_upto, MV_taxupto, Finance, Registration_no) values (413416, 'Jacobs Group', 'Available', '2022-05-30', '2043-03-06', '2043-02-12', 54420, 'UP02 HF 2360');
+insert into Insurance (Insurance_no, Registering_authority, Puc_status, Insurance_upto, Fitness_upto, MV_taxupto, Finance, Registration_no) values (396991, 'Blick, Murphy and Turcotte', 'Available', '2023-02-13', '2042-11-03', '2042-05-18', 19780, 'UP02 JF 2356');
+insert into Insurance (Insurance_no, Registering_authority, Puc_status, Insurance_upto, Fitness_upto, MV_taxupto, Finance, Registration_no) values (596708, 'Roob and Sons', 'Not Available', '2023-01-14', '2042-06-27', '2042-05-13', 12551, 'UP02 HF 2366');
+insert into Insurance (Insurance_no, Registering_authority, Puc_status, Insurance_upto, Fitness_upto, MV_taxupto, Finance, Registration_no) values (460799, 'Lindgren-Franecki', 'Not Available', '2022-07-04', '2042-09-22', '2042-12-09', 87568, 'GJ06 EA 6303');
+insert into Insurance (Insurance_no, Registering_authority, Puc_status, Insurance_upto, Fitness_upto, MV_taxupto, Finance, Registration_no) values (669688, 'O''Connell-Jaskolski', 'Not Available', '2022-05-07', '2042-11-04', '2043-01-10', 39003, 'UP02 HF 2363');
+insert into Insurance (Insurance_no, Registering_authority, Puc_status, Insurance_upto, Fitness_upto, MV_taxupto, Finance, Registration_no) values (383455, 'Brakus Group', 'Not Available', '2023-03-04', '2042-08-04', '2043-01-15', 40754, 'GJ06 EA 6411');
+insert into Insurance (Insurance_no, Registering_authority, Puc_status, Insurance_upto, Fitness_upto, MV_taxupto, Finance, Registration_no) values (722502, 'Kuvalis, Herman and Bergstrom', 'Available', '2022-06-14', '2043-02-11', '2043-04-04', 39683, 'GJ01 BQ 3475');
+insert into Insurance (Insurance_no, Registering_authority, Puc_status, Insurance_upto, Fitness_upto, MV_taxupto, Finance, Registration_no) values (546790, 'Towne-Bergstrom', 'Not Available', '2022-10-06', '2042-06-11', '2042-05-07', 53501, 'GJ06 EA 6711');
+insert into Insurance (Insurance_no, Registering_authority, Puc_status, Insurance_upto, Fitness_upto, MV_taxupto, Finance, Registration_no) values (837868, 'McDermott, Hermiston and Hills', 'Available', '2023-02-13', '2042-12-24', '2042-05-14', 10154, 'UP02 HF 2561');
+insert into Insurance (Insurance_no, Registering_authority, Puc_status, Insurance_upto, Fitness_upto, MV_taxupto, Finance, Registration_no) values (945970, 'Bergnaum, Graham and Bins', 'Not Available', '2022-08-09', '2042-07-12', '2042-08-18', 13064, 'UP02 HF 2364');
+insert into Insurance (Insurance_no, Registering_authority, Puc_status, Insurance_upto, Fitness_upto, MV_taxupto, Finance, Registration_no) values (544580, 'Cummerata-Wisozk', 'Available', '2023-01-06', '2042-06-13', '2043-02-12', 13210, 'UP02 HF 2259');
+insert into Insurance (Insurance_no, Registering_authority, Puc_status, Insurance_upto, Fitness_upto, MV_taxupto, Finance, Registration_no) values (174495, 'Keeling-Pouros', 'Not Available', '2022-11-02', '2042-11-15', '2042-06-29', 28502, 'GJ06 EA 6311');
+insert into Insurance (Insurance_no, Registering_authority, Puc_status, Insurance_upto, Fitness_upto, MV_taxupto, Finance, Registration_no) values (724010, 'Hirthe, Trantow and Willms', 'Available', '2022-04-28', '2042-11-01', '2043-04-03', 74733, 'RJ05 HC 2401');
+insert into Insurance (Insurance_no, Registering_authority, Puc_status, Insurance_upto, Fitness_upto, MV_taxupto, Finance, Registration_no) values (374369, 'O''Connell Group', 'Not Available', '2022-08-09', '2042-09-20', '2042-07-31', 30887, 'UP02 HF 2659');
+insert into Insurance (Insurance_no, Registering_authority, Puc_status, Insurance_upto, Fitness_upto, MV_taxupto, Finance, Registration_no) values (788868, 'Gutkowski LLC', 'Not Available', '2022-10-28', '2042-11-24', '2043-03-17', 35455, 'GJ06 EA 7308');
+insert into Insurance (Insurance_no, Registering_authority, Puc_status, Insurance_upto, Fitness_upto, MV_taxupto, Finance, Registration_no) values (913784, 'Jacobson, Schmidt and Bogan', 'Not Available', '2023-01-10', '2042-12-31', '2042-07-29', 85250, 'UP02 HF 2365');
+insert into Insurance (Insurance_no, Registering_authority, Puc_status, Insurance_upto, Fitness_upto, MV_taxupto, Finance, Registration_no) values (296384, 'Kris LLC', 'Available', '2022-05-23', '2042-12-13', '2043-03-18', 65129, 'GJ01 BQ 3576');
+insert into Insurance (Insurance_no, Registering_authority, Puc_status, Insurance_upto, Fitness_upto, MV_taxupto, Finance, Registration_no) values (688862, 'Spencer Group', 'Not Available', '2022-05-21', '2042-06-26', '2042-08-02', 84812, 'GJ06 EA 7309');
+insert into Insurance (Insurance_no, Registering_authority, Puc_status, Insurance_upto, Fitness_upto, MV_taxupto, Finance, Registration_no) values (285009, 'Wiegand, Kautzer and Rodriguez', 'Available', '2023-04-12', '2042-08-10', '2042-10-03', 34733, 'UP02 HF 2392');
+insert into Insurance (Insurance_no, Registering_authority, Puc_status, Insurance_upto, Fitness_upto, MV_taxupto, Finance, Registration_no) values (117157, 'Littel Inc', 'Not Available', '2022-05-20', '2043-04-07', '2042-05-31', 32665, 'UP02 HF 2361');
+insert into Insurance (Insurance_no, Registering_authority, Puc_status, Insurance_upto, Fitness_upto, MV_taxupto, Finance, Registration_no) values (344952, 'Flatley, Cruickshank and Walsh', 'Available', '2022-05-07', '2042-04-29', '2042-11-03', 69795, 'GJ01 BQ 3476');
+insert into Insurance (Insurance_no, Registering_authority, Puc_status, Insurance_upto, Fitness_upto, MV_taxupto, Finance, Registration_no) values (681284, 'Leffler LLC', 'Not Available', '2022-12-14', '2043-02-01', '2042-10-18', 69431, 'GJ01 BQ 3473');
+insert into Insurance (Insurance_no, Registering_authority, Puc_status, Insurance_upto, Fitness_upto, MV_taxupto, Finance, Registration_no) values (748414, 'Kozey-Wintheiser', 'Not Available', '2022-06-14', '2042-10-16', '2043-01-16', 57733, 'GJ06 EA 6310');
+insert into Insurance (Insurance_no, Registering_authority, Puc_status, Insurance_upto, Fitness_upto, MV_taxupto, Finance, Registration_no) values (373118, 'Fisher and Sons', 'Available', '2022-11-26', '2042-08-09', '2042-11-30', 13571, 'UP02 HF 2359');
+insert into Insurance (Insurance_no, Registering_authority, Puc_status, Insurance_upto, Fitness_upto, MV_taxupto, Finance, Registration_no) values (330457, 'Farrell LLC', 'Available', '2022-08-19', '2042-07-06', '2042-07-18', 15404, 'RJ05 HC 2400');
+insert into Insurance (Insurance_no, Registering_authority, Puc_status, Insurance_upto, Fitness_upto, MV_taxupto, Finance, Registration_no) values (977386, 'Hand, Emard and Marks', 'Not Available', '2022-07-16', '2042-11-23', '2042-11-07', 15141, 'GJ06 EA 6308');
+insert into Insurance (Insurance_no, Registering_authority, Puc_status, Insurance_upto, Fitness_upto, MV_taxupto, Finance, Registration_no) values (903632, 'Thompson, MacGyver and Schuppe', 'Available', '2022-11-04', '2042-11-23', '2043-01-28', 20370, 'GJ01 BQ 3478');
+insert into Insurance (Insurance_no, Registering_authority, Puc_status, Insurance_upto, Fitness_upto, MV_taxupto, Finance, Registration_no) values (244219, 'Rodriguez, Jacobs and Greenholt', 'Not Available', '2023-01-29', '2042-06-06', '2043-03-29', 82403, 'RJ05 HC 2806');
+insert into Insurance (Insurance_no, Registering_authority, Puc_status, Insurance_upto, Fitness_upto, MV_taxupto, Finance, Registration_no) values (104160, 'Hettinger Group', 'Available', '2022-07-08', '2042-10-07', '2042-09-01', 53873, 'GJ01 BQ 3480');
+insert into Insurance (Insurance_no, Registering_authority, Puc_status, Insurance_upto, Fitness_upto, MV_taxupto, Finance, Registration_no) values (218698, 'Smith Inc', 'Not Available', '2022-06-09', '2042-06-27', '2042-08-10', 71057, 'RJ05 HC 2406');
+insert into Insurance (Insurance_no, Registering_authority, Puc_status, Insurance_upto, Fitness_upto, MV_taxupto, Finance, Registration_no) values (789273, 'Ondricka-Lind', 'Not Available', '2022-12-26', '2042-11-10', '2042-05-06', 66587, 'RJ05 JC 2404');
+insert into Insurance (Insurance_no, Registering_authority, Puc_status, Insurance_upto, Fitness_upto, MV_taxupto, Finance, Registration_no) values (424221, 'Weber, Lubowitz and Jerde', 'Not Available', '2022-07-08', '2042-12-06', '2042-05-10', 93026, 'UP02 HF 2362');
+insert into Insurance (Insurance_no, Registering_authority, Puc_status, Insurance_upto, Fitness_upto, MV_taxupto, Finance, Registration_no) values (620558, 'Mayer-Tremblay', 'Available', '2022-08-20', '2042-05-11', '2042-09-17', 75304, 'RJ05 HC 2405');
+insert into Insurance (Insurance_no, Registering_authority, Puc_status, Insurance_upto, Fitness_upto, MV_taxupto, Finance, Registration_no) values (561368, 'Shanahan, Huels and Crist', 'Not Available', '2023-01-03', '2042-08-21', '2042-06-27', 21585, 'RJ05 HA 2405');
+insert into Insurance (Insurance_no, Registering_authority, Puc_status, Insurance_upto, Fitness_upto, MV_taxupto, Finance, Registration_no) values (727992, 'Prosacco Inc', 'Available', '2023-04-13', '2042-08-03', '2043-01-07', 87717, 'UP02 HF 2356');
+insert into Insurance (Insurance_no, Registering_authority, Puc_status, Insurance_upto, Fitness_upto, MV_taxupto, Finance, Registration_no) values (432939, 'Dibbert Group', 'Available', '2022-12-19', '2043-02-22', '2042-09-18', 32063, 'RJ05 HC 2404');
+
+
+PUC:
+
+insert into PUC (PUC_srno, Issued_by, Issue_date, Due_date, CO_level, HC_level, SD_level, Registration_no) values ('500101', 'Morar, Donnelly and Jerde', '2023-03-06', '2042-04-23', 86.8, 13.96, 40.75, 'UP02 HF 2364');
+insert into PUC (PUC_srno, Issued_by, Issue_date, Due_date, CO_level, HC_level, SD_level, Registration_no) values ('500102', 'Hermann, O''Reilly and Kertzmann', '2023-03-15', '2042-04-23', 51.61, 83.64, 34.59, 'UP02 HF 2259');
+insert into PUC (PUC_srno, Issued_by, Issue_date, Due_date, CO_level, HC_level, SD_level, Registration_no) values ('500103', 'Huels, Ziemann and Dare', '2022-12-28', '2042-04-23', 70.96, 66.39, 46.18, 'GJ06 EA 6311');
+insert into PUC (PUC_srno, Issued_by, Issue_date, Due_date, CO_level, HC_level, SD_level, Registration_no) values ('500104', 'Marks, Marks and Buckridge', '2023-02-16', '2042-04-23', 20.37, 61.24, 46.35, 'RJ05 HC 2401');
+insert into PUC (PUC_srno, Issued_by, Issue_date, Due_date, CO_level, HC_level, SD_level, Registration_no) values ('500105', 'Labadie-Runolfsson', '2022-10-12', '2042-04-23', 69.98, 44.27, 73.66, 'UP02 HF 2659');
+insert into PUC (PUC_srno, Issued_by, Issue_date, Due_date, CO_level, HC_level, SD_level, Registration_no) values ('500106', 'McDermott, Huels and Buckridge', '2022-06-08', '2042-04-23', 36.37, 40.66, 39.98, 'GJ06 EA 7308');
+insert into PUC (PUC_srno, Issued_by, Issue_date, Due_date, CO_level, HC_level, SD_level, Registration_no) values ('500107', 'Kling LLC', '2022-09-21', '2042-04-23', 20.86, 59.18, 64.35, 'UP02 HF 2365');
+insert into PUC (PUC_srno, Issued_by, Issue_date, Due_date, CO_level, HC_level, SD_level, Registration_no) values ('500108', 'Bahringer, Mante and Connelly', '2023-01-16', '2042-04-23', 77.39, 29.9, 14.87, 'GJ01 BQ 3576');
+insert into PUC (PUC_srno, Issued_by, Issue_date, Due_date, CO_level, HC_level, SD_level, Registration_no) values ('500109', 'MacGyver, Walsh and O''Kon', '2022-07-05', '2042-04-23', 20.11, 27.19, 49.93, 'GJ06 EA 7309');
+insert into PUC (PUC_srno, Issued_by, Issue_date, Due_date, CO_level, HC_level, SD_level, Registration_no) values ('500110', 'Jacobs-Marquardt', '2022-07-25', '2042-04-23', 65.82, 76.93, 27.49, 'UP02 HF 2392');
+insert into PUC (PUC_srno, Issued_by, Issue_date, Due_date, CO_level, HC_level, SD_level, Registration_no) values ('500111', 'Gleason-Mohr', '2022-11-08', '2042-04-23', 49.08, 49.67, 73.18, 'UP02 HF 2361');
+insert into PUC (PUC_srno, Issued_by, Issue_date, Due_date, CO_level, HC_level, SD_level, Registration_no) values ('500112', 'Buckridge-Windler', '2023-04-14', '2042-04-23', 56.25, 89.43, 64.94, 'GJ01 BQ 3476');
+insert into PUC (PUC_srno, Issued_by, Issue_date, Due_date, CO_level, HC_level, SD_level, Registration_no) values ('500113', 'Goldner, Howe and Lowe', '2022-11-25', '2042-04-23', 35.77, 63.11, 21.0, 'GJ01 BQ 3473');
+insert into PUC (PUC_srno, Issued_by, Issue_date, Due_date, CO_level, HC_level, SD_level, Registration_no) values ('500114', 'Von-Spencer', '2022-04-23', '2042-04-23', 89.45, 34.45, 62.4, 'GJ06 EA 6310');
+insert into PUC (PUC_srno, Issued_by, Issue_date, Due_date, CO_level, HC_level, SD_level, Registration_no) values ('500115', 'Harris-Hodkiewicz', '2022-06-27', '2042-04-23', 88.2, 14.22, 58.64, 'UP02 HF 2359');
+insert into PUC (PUC_srno, Issued_by, Issue_date, Due_date, CO_level, HC_level, SD_level, Registration_no) values ('500116', 'Cruickshank LLC', '2022-11-09', '2042-04-23', 52.92, 22.63, 52.97, 'RJ05 HC 2400');
+insert into PUC (PUC_srno, Issued_by, Issue_date, Due_date, CO_level, HC_level, SD_level, Registration_no) values ('500117', 'Farrell, Will and Hermann', '2023-04-20', '2042-04-23', 68.25, 31.89, 70.49, 'GJ06 EA 6308');
+insert into PUC (PUC_srno, Issued_by, Issue_date, Due_date, CO_level, HC_level, SD_level, Registration_no) values ('500118', 'Dicki Group', '2022-12-09', '2042-04-23', 89.81, 40.12, 81.83, 'GJ01 BQ 3478');
+insert into PUC (PUC_srno, Issued_by, Issue_date, Due_date, CO_level, HC_level, SD_level, Registration_no) values ('500119', 'Howe-Langosh', '2022-07-06', '2042-04-23', 46.1, 31.95, 47.2, 'RJ05 HC 2806');
+insert into PUC (PUC_srno, Issued_by, Issue_date, Due_date, CO_level, HC_level, SD_level, Registration_no) values ('500120', 'Bashirian Inc', '2022-08-13', '2042-04-23', 47.86, 87.02, 59.5, 'GJ01 BQ 3480');
+insert into PUC (PUC_srno, Issued_by, Issue_date, Due_date, CO_level, HC_level, SD_level, Registration_no) values ('500121', 'Denesik, Weimann and Willms', '2023-03-14', '2042-04-23', 72.07, 70.24, 82.92, 'RJ05 HC 2406');
+insert into PUC (PUC_srno, Issued_by, Issue_date, Due_date, CO_level, HC_level, SD_level, Registration_no) values ('500122', 'Prohaska Group', '2022-05-01', '2042-04-23', 85.14, 81.38, 77.46, 'RJ05 JC 2404');
+insert into PUC (PUC_srno, Issued_by, Issue_date, Due_date, CO_level, HC_level, SD_level, Registration_no) values ('500123', 'Kunde, Toy and Kovacek', '2023-03-18', '2042-04-23', 40.22, 74.76, 76.57, 'UP02 HF 2362');
+insert into PUC (PUC_srno, Issued_by, Issue_date, Due_date, CO_level, HC_level, SD_level, Registration_no) values ('500124', 'Kohler Inc', '2023-03-22', '2042-04-23', 47.84, 84.05, 76.82, 'RJ05 HC 2405');
+insert into PUC (PUC_srno, Issued_by, Issue_date, Due_date, CO_level, HC_level, SD_level, Registration_no) values ('500125', 'Rosenbaum, Wiza and Kris', '2022-07-30', '2042-04-23', 37.26, 39.65, 21.51, 'RJ05 HA 2405');
+insert into PUC (PUC_srno, Issued_by, Issue_date, Due_date, CO_level, HC_level, SD_level, Registration_no) values ('500126', 'Deckow LLC', '2022-05-17', '2042-04-23', 24.55, 22.37, 23.25, 'UP02 HF 2356');
+insert into PUC (PUC_srno, Issued_by, Issue_date, Due_date, CO_level, HC_level, SD_level, Registration_no) values ('500127', 'Schuppe Group', '2022-04-27', '2042-04-23', 49.84, 24.75, 84.29, 'RJ05 HC 2404');
+
+Learner:
+
+insert into Learner (LL_no, LL_issuedate, LL_validity, Login_id) values ('RJ051234567893', '2022-06-16', '2024-04-23', 'user1');
+insert into Learner (LL_no, LL_issuedate, LL_validity, Login_id) values ('RJ051234567894', '2022-06-22', '2024-04-23', 'user2');
+insert into Learner (LL_no, LL_issuedate, LL_validity, Login_id) values ('RJ051234567895', '2022-09-07', '2024-04-23', 'user3');
+insert into Learner (LL_no, LL_issuedate, LL_validity, Login_id) values ('RJ051234567896', '2023-01-07', '2024-04-23', 'user4');
+insert into Learner (LL_no, LL_issuedate, LL_validity, Login_id) values ('RJ051234567897', '2022-09-06', '2024-04-23', 'user5');
+insert into Learner (LL_no, LL_issuedate, LL_validity, Login_id) values ('RJ051234567898', '2023-01-17', '2024-04-23', 'user6');
+insert into Learner (LL_no, LL_issuedate, LL_validity, Login_id) values ('RJ051234567899', '2022-11-16', '2024-04-23', 'user7');
+insert into Learner (LL_no, LL_issuedate, LL_validity, Login_id) values ('RJ051234567900', '2022-08-04', '2024-04-23', 'user8');
+insert into Learner (LL_no, LL_issuedate, LL_validity, Login_id) values ('RJ051234567901', '2022-07-29', '2024-04-23', 'user9');
+insert into Learner (LL_no, LL_issuedate, LL_validity, Login_id) values ('RJ051234567902', '2022-12-19', '2024-04-23', 'user10');
+insert into Learner (LL_no, LL_issuedate, LL_validity, Login_id) values ('RJ051234567903', '2022-08-21', '2024-04-23', 'user11');
+insert into Learner (LL_no, LL_issuedate, LL_validity, Login_id) values ('GJ010987654330', '2023-02-23', '2024-04-23', 'user12');
+insert into Learner (LL_no, LL_issuedate, LL_validity, Login_id) values ('GJ010987654331', '2022-08-06', '2024-04-23', 'user13');
+insert into Learner (LL_no, LL_issuedate, LL_validity, Login_id) values ('GJ010987654332', '2023-04-11', '2024-04-23', 'user14');
+insert into Learner (LL_no, LL_issuedate, LL_validity, Login_id) values ('GJ010987654333', '2022-11-07', '2024-04-23', 'user15');
+insert into Learner (LL_no, LL_issuedate, LL_validity, Login_id) values ('GJ010987654334', '2023-04-12', '2024-04-23', 'user16');
+insert into Learner (LL_no, LL_issuedate, LL_validity, Login_id) values ('GJ010987654335', '2022-11-26', '2024-04-23', 'user17');
+insert into Learner (LL_no, LL_issuedate, LL_validity, Login_id) values ('GJ010987654336', '2022-06-19', '2024-04-23', 'user18');
+insert into Learner (LL_no, LL_issuedate, LL_validity, Login_id) values ('GJ010987654337', '2023-02-10', '2024-04-23', 'user19');
+insert into Learner (LL_no, LL_issuedate, LL_validity, Login_id) values ('GJ010987654338', '2022-08-15', '2024-04-23', 'user20');
+insert into Learner (LL_no, LL_issuedate, LL_validity, Login_id) values ('GJ010987654339', '2022-11-24', '2024-04-23', 'user21');
+insert into Learner (LL_no, LL_issuedate, LL_validity, Login_id) values ('GJ010987654340', '2022-06-09', '2024-04-23', 'user22');
+insert into Learner (LL_no, LL_issuedate, LL_validity, Login_id) values ('UP020987654326', '2022-09-22', '2024-04-23', 'user23');
+insert into Learner (LL_no, LL_issuedate, LL_validity, Login_id) values ('UP020987654327', '2022-05-31', '2024-04-23', 'user24');
+insert into Learner (LL_no, LL_issuedate, LL_validity, Login_id) values ('UP020987654328', '2022-05-14', '2024-04-23', 'user25');
+insert into Learner (LL_no, LL_issuedate, LL_validity, Login_id) values ('UP020987654329', '2023-03-05', '2024-04-23', 'user26');
+insert into Learner (LL_no, LL_issuedate, LL_validity, Login_id) values ('UP020987654330', '2023-01-12', '2024-04-23', 'user27');
+insert into Learner (LL_no, LL_issuedate, LL_validity, Login_id) values ('UP020987654331', '2022-06-11', '2024-04-23', 'user28');
+insert into Learner (LL_no, LL_issuedate, LL_validity, Login_id) values ('UP020987654332', '2022-11-14', '2024-04-23', 'user29');
+insert into Learner (LL_no, LL_issuedate, LL_validity, Login_id) values ('UP020987654333', '2023-01-20', '2024-04-23', 'user30');
+insert into Learner (LL_no, LL_issuedate, LL_validity, Login_id) values ('UP020987654334', '2022-06-30', '2024-04-23', 'user31');
+insert into Learner (LL_no, LL_issuedate, LL_validity, Login_id) values ('UP020987654335', '2023-04-21', '2024-04-23', 'user32');
+insert into Learner (LL_no, LL_issuedate, LL_validity, Login_id) values ('UP020987654336', '2023-02-23', '2024-04-23', 'user33');
+insert into Learner (LL_no, LL_issuedate, LL_validity, Login_id) values ('GJ021256837592', '2022-05-27', '2024-04-23', 'user34');
+insert into Learner (LL_no, LL_issuedate, LL_validity, Login_id) values ('GJ021256837593', '2023-01-18', '2024-04-23', 'user35');
+insert into Learner (LL_no, LL_issuedate, LL_validity, Login_id) values ('GJ021256837594', '2023-02-10', '2024-04-23', 'user36');
+insert into Learner (LL_no, LL_issuedate, LL_validity, Login_id) values ('GJ021256837595', '2022-06-05', '2024-04-23', 'user37');
+insert into Learner (LL_no, LL_issuedate, LL_validity, Login_id) values ('GJ021256837596', '2022-11-09', '2024-04-23', 'user38');
+insert into Learner (LL_no, LL_issuedate, LL_validity, Login_id) values ('GJ021256837597', '2022-12-14', '2024-04-23', 'user39');
+insert into Learner (LL_no, LL_issuedate, LL_validity, Login_id) values ('GJ021256837598', '2022-12-12', '2024-04-23', 'user40');
+
+
+Permanent:
+
+insert into Permanent (DL_no, DL_issuedate, DL_validity, Login_id) values ('GJ056837592', '2023-01-16', '2042-07-10', 'user1');
+insert into Permanent (DL_no, DL_issuedate, DL_validity, Login_id) values ('GJ056837593', '2023-02-07', '2043-01-18', 'user2');
+insert into Permanent (DL_no, DL_issuedate, DL_validity, Login_id) values ('GJ056837594', '2022-09-19', '2042-11-23', 'user3');
+insert into Permanent (DL_no, DL_issuedate, DL_validity, Login_id) values ('GJ056837595', '2022-09-24', '2042-06-03', 'user4');
+insert into Permanent (DL_no, DL_issuedate, DL_validity, Login_id) values ('GJ056837596', '2022-10-27', '2042-05-20', 'user5');
+insert into Permanent (DL_no, DL_issuedate, DL_validity, Login_id) values ('GJ056837597', '2022-10-17', '2043-01-05', 'user6');
+insert into Permanent (DL_no, DL_issuedate, DL_validity, Login_id) values ('GJ056837598', '2022-11-24', '2042-05-29', 'user7');
+insert into Permanent (DL_no, DL_issuedate, DL_validity, Login_id) values ('RJ01234567890', '2022-10-28', '2042-06-15', 'user8');
+insert into Permanent (DL_no, DL_issuedate, DL_validity, Login_id) values ('RJ01234567891', '2022-09-02', '2042-08-30', 'user9');
+insert into Permanent (DL_no, DL_issuedate, DL_validity, Login_id) values ('RJ01234567892', '2022-12-10', '2042-04-25', 'user10');
+insert into Permanent (DL_no, DL_issuedate, DL_validity, Login_id) values ('RJ01234567893', '2023-03-19', '2043-01-05', 'user11');
+insert into Permanent (DL_no, DL_issuedate, DL_validity, Login_id) values ('RJ01234567894', '2022-07-23', '2043-02-19', 'user12');
+insert into Permanent (DL_no, DL_issuedate, DL_validity, Login_id) values ('RJ01234567895', '2022-08-17', '2042-11-01', 'user13');
+insert into Permanent (DL_no, DL_issuedate, DL_validity, Login_id) values ('RJ01234567896', '2023-01-25', '2042-07-25', 'user14');
+insert into Permanent (DL_no, DL_issuedate, DL_validity, Login_id) values ('UP00987654321', '2022-09-08', '2042-05-11', 'user15');
+insert into Permanent (DL_no, DL_issuedate, DL_validity, Login_id) values ('UP00987654322', '2023-01-08', '2042-05-25', 'user16');
+insert into Permanent (DL_no, DL_issuedate, DL_validity, Login_id) values ('UP00987654323', '2023-04-16', '2043-01-30', 'user17');
+insert into Permanent (DL_no, DL_issuedate, DL_validity, Login_id) values ('UP00987654324', '2022-11-07', '2042-09-29', 'user18');
+insert into Permanent (DL_no, DL_issuedate, DL_validity, Login_id) values ('UP00987654325', '2022-06-30', '2042-09-09', 'user19');
+insert into Permanent (DL_no, DL_issuedate, DL_validity, Login_id) values ('UP00987654326', '2022-06-14', '2042-07-01', 'user20');
+insert into Permanent (DL_no, DL_issuedate, DL_validity, Login_id) values ('UP00987654327', '2022-12-10', '2043-04-14', 'user21');
+insert into Permanent (DL_no, DL_issuedate, DL_validity, Login_id) values ('GJ00987654321', '2023-02-28', '2042-06-24', 'user22');
+insert into Permanent (DL_no, DL_issuedate, DL_validity, Login_id) values ('GJ00987654322', '2022-08-10', '2042-08-29', 'user23');
+insert into Permanent (DL_no, DL_issuedate, DL_validity, Login_id) values ('GJ00987654323', '2022-06-25', '2042-12-21', 'user24');
+insert into Permanent (DL_no, DL_issuedate, DL_validity, Login_id) values ('GJ00987654324', '2022-12-31', '2043-03-05', 'user25');
+insert into Permanent (DL_no, DL_issuedate, DL_validity, Login_id) values ('GJ00987654325', '2022-09-06', '2042-12-16', 'user26');
+insert into Permanent (DL_no, DL_issuedate, DL_validity, Login_id) values ('GJ00987654326', '2022-08-28', '2042-07-31', 'user27');
+insert into Permanent (DL_no, DL_issuedate, DL_validity, Login_id) values ('GJ00987654327', '2022-12-23', '2043-03-30', 'user28');
+
+Cheque:
+
+insert into Cheque (Application_no, Account_no) values (450231, 98765432131);
+insert into Cheque (Application_no, Account_no) values (450232, 98765432132);
+insert into Cheque (Application_no, Account_no) values (450233, 98765432133);
+insert into Cheque (Application_no, Account_no) values (450234, 98765432134);
+insert into Cheque (Application_no, Account_no) values (450235, 98765432135);
+insert into Cheque (Application_no, Account_no) values (450236, 98765432136);
+insert into Cheque (Application_no, Account_no) values (450237, 98765432137);
+insert into Cheque (Application_no, Account_no) values (450238, 98765432138);
+insert into Cheque (Application_no, Account_no) values (450239, 98765432139);
+insert into Cheque (Application_no, Account_no) values (450240, 98765432140);
+
+Charges:
+
+insert into Charges (Challan_no, Application_no, Offender_name, Officer_id, Offences, Amount, Offence_date, Vehicle_no, Location1, Vehicle_type) values (100101, 450201, 'Aleen Michiel', 'Robert Jackson', 'Drunk Driving', 996, '2022-07-11', 'GJ06 EA6302', 'location19', 'Bus');
+insert into Charges (Challan_no, Application_no, Offender_name, Officer_id, Offences, Amount, Offence_date, Vehicle_no, Location1, Vehicle_type) values (100102, 450202, 'Sumner Baline', 'Joseph Martin', 'Drunk Driving', 16002, '2022-05-16', 'GJ01 BQ3478', 'location10', 'Motorcycle');
+insert into Charges (Challan_no, Application_no, Offender_name, Officer_id, Offences, Amount, Offence_date, Vehicle_no, Location1, Vehicle_type) values (100103, 450203, 'Brandea Sprigg', 'Christopher Robinson', 'Illegal Parking', 8208, '2023-01-16', 'RJ05 HC2399', 'location20', 'Motorcycle');
+insert into Charges (Challan_no, Application_no, Offender_name, Officer_id, Offences, Amount, Offence_date, Vehicle_no, Location1, Vehicle_type) values (100104, 450204, 'Auguste Wythill', 'Elizabeth Clark', 'Running a Red Light', 2249, '2022-11-25', 'RJ05 HC2400', 'location20', 'Truck');
+insert into Charges (Challan_no, Application_no, Offender_name, Officer_id, Offences, Amount, Offence_date, Vehicle_no, Location1, Vehicle_type) values (100105, 450205, 'Ardith Rennicks', 'William Brown', 'Speeding', 18596, '2022-05-16', 'GJ01 BQ3480', 'location12', 'Car');
+insert into Charges (Challan_no, Application_no, Offender_name, Officer_id, Offences, Amount, Offence_date, Vehicle_no, Location1, Vehicle_type) values (100106, 450206, 'Rakel Lascell', 'Matthew Rodriguez', 'Speeding', 9076, '2022-09-02', 'RJ05 HC2397', 'location16', 'Motorcycle');
+insert into Charges (Challan_no, Application_no, Offender_name, Officer_id, Offences, Amount, Offence_date, Vehicle_no, Location1, Vehicle_type) values (100107, 450207, 'Matty Bisp', 'Avery Lewis', 'Illegal Parking', 15353, '2022-06-16', 'GJ06 EA6302', 'location1', 'Scooter');
+insert into Charges (Challan_no, Application_no, Offender_name, Officer_id, Offences, Amount, Offence_date, Vehicle_no, Location1, Vehicle_type) values (100108, 450208, 'Alford Garrow', 'Mia Lee', 'Running a Red Light', 7167, '2022-08-05', 'GJ06 EA6309', 'location9', 'Truck');
+insert into Charges (Challan_no, Application_no, Offender_name, Officer_id, Offences, Amount, Offence_date, Vehicle_no, Location1, Vehicle_type) values (100109, 450209, 'Hammad Beaumont', 'Avery Lewis', 'Driving without a License', 13698, '2022-11-04', 'RJ05 HC2398', 'location17', 'Truck');
+insert into Charges (Challan_no, Application_no, Offender_name, Officer_id, Offences, Amount, Offence_date, Vehicle_no, Location1, Vehicle_type) values (100110, 450210, 'Shea Farbrother', 'Joshua Young', 'Drunk Driving', 15730, '2022-06-23', 'UP02 HF2356', 'location13', 'Car');
+insert into Charges (Challan_no, Application_no, Offender_name, Officer_id, Offences, Amount, Offence_date, Vehicle_no, Location1, Vehicle_type) values (100111, 450211, 'Meggie Cratere', 'Steven Walker', 'Drunk Driving', 5350, '2022-06-21', 'GJ06 EA6301', 'location7', 'Motorcycle');
+insert into Charges (Challan_no, Application_no, Offender_name, Officer_id, Offences, Amount, Offence_date, Vehicle_no, Location1, Vehicle_type) values (100112, 450212, 'Georgeanna Wawer', 'Charlotte Harris', 'Speeding', 13283, '2022-09-19', 'GJ01 BQ3477', 'location6', 'Scooter');
+insert into Charges (Challan_no, Application_no, Offender_name, Officer_id, Offences, Amount, Offence_date, Vehicle_no, Location1, Vehicle_type) values (100113, 450213, 'Ronda Verbruggen', 'Michael Johnson', 'Running a Red Light', 5317, '2022-09-25', 'UP02 HF2357', 'location11', 'Car');
+insert into Charges (Challan_no, Application_no, Offender_name, Officer_id, Offences, Amount, Offence_date, Vehicle_no, Location1, Vehicle_type) values (100114, 450214, 'Reggi Ormes', 'Daniel White', 'Drunk Driving', 10828, '2022-09-04', 'GJ06 EA6307', 'location11', 'Truck');
+insert into Charges (Challan_no, Application_no, Offender_name, Officer_id, Offences, Amount, Offence_date, Vehicle_no, Location1, Vehicle_type) values (100115, 450215, 'Durward Ramberg', 'Daniel White', 'Running a Red Light', 9585, '2023-03-31', 'GJ06 EA6308', 'location4', 'Car');
+insert into Charges (Challan_no, Application_no, Offender_name, Officer_id, Offences, Amount, Offence_date, Vehicle_no, Location1, Vehicle_type) values (100116, 450216, 'Tedi McCleary', 'Joseph Martin', 'Illegal Parking', 9298, '2022-10-14', 'GJ01 BQ3481', 'location17', 'Bus');
+insert into Charges (Challan_no, Application_no, Offender_name, Officer_id, Offences, Amount, Offence_date, Vehicle_no, Location1, Vehicle_type) values (100117, 450217, 'Rodrick Bulpitt', 'Steven Walker', 'Running a Red Light', 5506, '2022-10-11', 'RJ05 HC2398', 'location19', 'Bus');
+insert into Charges (Challan_no, Application_no, Offender_name, Officer_id, Offences, Amount, Offence_date, Vehicle_no, Location1, Vehicle_type) values (100118, 450218, 'Trula Leap', 'Joseph Martin', 'Speeding', 16695, '2023-01-11', 'GJ06 EA6307', 'location5', 'Scooter');
+insert into Charges (Challan_no, Application_no, Offender_name, Officer_id, Offences, Amount, Offence_date, Vehicle_no, Location1, Vehicle_type) values (100119, 450219, 'Gina MacLaughlin', 'Emily Davis', 'Illegal Parking', 4428, '2023-01-22', 'GJ06 EA6307', 'location15', 'Car');
+insert into Charges (Challan_no, Application_no, Offender_name, Officer_id, Offences, Amount, Offence_date, Vehicle_no, Location1, Vehicle_type) values (100120, 450220, 'Ninette Hagan', 'Avery Lewis', 'Illegal Parking', 1163, '2022-09-28', 'GJ01 BQ3475', 'location3', 'Scooter');
+insert into Charges (Challan_no, Application_no, Offender_name, Officer_id, Offences, Amount, Offence_date, Vehicle_no, Location1, Vehicle_type) values (100121, 450221, 'Callida Petri', 'Emily Davis', 'Illegal Parking', 7951, '2022-08-01', 'GJ01 BQ3472', 'location10', 'Scooter');
+insert into Charges (Challan_no, Application_no, Offender_name, Officer_id, Offences, Amount, Offence_date, Vehicle_no, Location1, Vehicle_type) values (100122, 450222, 'Dougy Tomaello', 'Avery Lewis', 'Running a Red Light', 6293, '2022-09-11', 'GJ06 EA6307', 'location18', 'Car');
+insert into Charges (Challan_no, Application_no, Offender_name, Officer_id, Offences, Amount, Offence_date, Vehicle_no, Location1, Vehicle_type) values (100123, 450223, 'Horst Christin', 'Emily Davis', 'Running a Red Light', 323, '2023-01-20', 'GJ06 EA6307', 'location19', 'Car');
+insert into Charges (Challan_no, Application_no, Offender_name, Officer_id, Offences, Amount, Offence_date, Vehicle_no, Location1, Vehicle_type) values (100124, 450224, 'Thurston Geale', 'Olivia Wilson', 'Running a Red Light', 16047, '2022-10-25', 'GJ06 EA6304', 'location6', 'Car');
+insert into Charges (Challan_no, Application_no, Offender_name, Officer_id, Offences, Amount, Offence_date, Vehicle_no, Location1, Vehicle_type) values (100125, 450225, 'Rochette Yantsurev', 'Sophia Martinez', 'Speeding', 16966, '2022-11-25', 'GJ06 EA6305', 'location6', 'Bus');
+insert into Charges (Challan_no, Application_no, Offender_name, Officer_id, Offences, Amount, Offence_date, Vehicle_no, Location1, Vehicle_type) values (100126, 450226, 'Aldous Beetlestone', 'Charlotte Harris', 'Speeding', 2726, '2022-05-22', 'GJ01 BQ3472', 'location4', 'Scooter');
+insert into Charges (Challan_no, Application_no, Offender_name, Officer_id, Offences, Amount, Offence_date, Vehicle_no, Location1, Vehicle_type) values (100127, 450227, 'Nellie Adan', 'Olivia Wilson', 'Speeding', 2239, '2022-08-04', 'GJ06 EA6311', 'location2', 'Truck');
+insert into Charges (Challan_no, Application_no, Offender_name, Officer_id, Offences, Amount, Offence_date, Vehicle_no, Location1, Vehicle_type) values (100128, 450228, 'Konstance Cromley', 'Daniel White', 'Illegal Parking', 9110, '2022-08-19', 'GJ01 BQ3478', '', 'Scooter');
+insert into Charges (Challan_no, Application_no, Offender_name, Officer_id, Offences, Amount, Offence_date, Vehicle_no, Location1, Vehicle_type) values (100129, 450229, 'Patrizius Sponton', 'Christopher Robinson', 'Illegal Parking', 19643, '2023-02-06', 'GJ06 EA6301', 'location10', 'Truck');
+insert into Charges (Challan_no, Application_no, Offender_name, Officer_id, Offences, Amount, Offence_date, Vehicle_no, Location1, Vehicle_type) values (100130, 450230, 'Gwen Jeakins', 'Mia Lee', 'Running a Red Light', 12887, '2022-09-02', 'RJ05 HC2398', 'location5', 'Car');
+insert into Charges (Challan_no, Application_no, Offender_name, Officer_id, Offences, Amount, Offence_date, Vehicle_no, Location1, Vehicle_type) values (100131, 450231, 'Judye Bownde', 'Steven Walker', 'Running a Red Light', 2948, '2022-05-22', 'UP02 HF2356', 'location10', 'Car');
+insert into Charges (Challan_no, Application_no, Offender_name, Officer_id, Offences, Amount, Offence_date, Vehicle_no, Location1, Vehicle_type) values (100132, 450232, 'Sharl Rozanski', 'Andrew Hall', 'Driving without a License', 17511, '2022-10-29', 'UP02 HF2358', 'location16', 'Scooter');
+insert into Charges (Challan_no, Application_no, Offender_name, Officer_id, Offences, Amount, Offence_date, Vehicle_no, Location1, Vehicle_type) values (100133, 450233, 'Christiane Synder', 'Matthew Rodriguez', 'Drunk Driving', 15706, '2022-06-29', 'UP02 HF2360', 'location8', 'Motorcycle');
+insert into Charges (Challan_no, Application_no, Offender_name, Officer_id, Offences, Amount, Offence_date, Vehicle_no, Location1, Vehicle_type) values (100134, 450234, 'Shaylah Houndsom', 'Abigail Thompson', 'Illegal Parking', 19217, '2022-11-21', 'GJ01 BQ3477', 'location19', 'Truck');
+insert into Charges (Challan_no, Application_no, Offender_name, Officer_id, Offences, Amount, Offence_date, Vehicle_no, Location1, Vehicle_type) values (100135, 450235, 'Ingaborg Braundt', 'Matthew Rodriguez', 'Drunk Driving', 13038, '2023-04-15', 'GJ01 BQ3480', 'location10', 'Car');
+insert into Charges (Challan_no, Application_no, Offender_name, Officer_id, Offences, Amount, Offence_date, Vehicle_no, Location1, Vehicle_type) values (100136, 450236, 'Adrianna Ciotto', 'Ella Wright', 'Speeding', 739, '2023-01-09', 'GJ06 EA6311', 'location15', 'Car');
+insert into Charges (Challan_no, Application_no, Offender_name, Officer_id, Offences, Amount, Offence_date, Vehicle_no, Location1, Vehicle_type) values (100137, 450237, 'Karie Angove', 'Mia Lee', 'Illegal Parking', 5638, '2023-01-17', 'UP02 HF2356', 'location9', 'Scooter');
+insert into Charges (Challan_no, Application_no, Offender_name, Officer_id, Offences, Amount, Offence_date, Vehicle_no, Location1, Vehicle_type) values (100138, 450238, 'Pippo Sibylla', 'William Brown', 'Driving without a License', 4443, '2023-01-25', 'GJ06 EA6311', 'location4', 'Scooter');
+insert into Charges (Challan_no, Application_no, Offender_name, Officer_id, Offences, Amount, Offence_date, Vehicle_no, Location1, Vehicle_type) values (100139, 450239, 'Agata Sporton', 'Jane Doe', 'Speeding', 13229, '2023-03-19', 'GJ06 EA6309', 'location18', 'Scooter');
+insert into Charges (Challan_no, Application_no, Offender_name, Officer_id, Offences, Amount, Offence_date, Vehicle_no, Location1, Vehicle_type) values (100140, 450240, 'Peta Giraldez', 'Avery Lewis', 'Illegal Parking', 492, '2023-02-14', 'GJ06 EA6309', 'location6', 'Bus');
+insert into Charges (Challan_no, Application_no, Offender_name, Officer_id, Offences, Amount, Offence_date, Vehicle_no, Location1, Vehicle_type) values (100141, 450241, 'Hart Maylard', 'David Garcia', 'Speeding', 7355, '2022-07-13', 'GJ01 BQ3480', 'location14', 'Truck');
+insert into Charges (Challan_no, Application_no, Offender_name, Officer_id, Offences, Amount, Offence_date, Vehicle_no, Location1, Vehicle_type) values (100142, 450242, 'Brigid Polly', 'John Smith', 'Drunk Driving', 6756, '2023-02-26', 'GJ01 BQ3475', 'location6', 'Car');
+insert into Charges (Challan_no, Application_no, Offender_name, Officer_id, Offences, Amount, Offence_date, Vehicle_no, Location1, Vehicle_type) values (100143, 450243, 'Gabbey Cornil', 'Andrew Hall', 'Driving without a License', 18053, '2022-05-17', 'GJ06 EA6310', 'location5', 'Motorcycle');
+insert into Charges (Challan_no, Application_no, Offender_name, Officer_id, Offences, Amount, Offence_date, Vehicle_no, Location1, Vehicle_type) values (100144, 450244, 'Mariska Chapiro', 'Michael Johnson', 'Running a Red Light', 14961, '2022-05-15', 'GJ06 EA6309', 'location18', 'Motorcycle');
+insert into Charges (Challan_no, Application_no, Offender_name, Officer_id, Offences, Amount, Offence_date, Vehicle_no, Location1, Vehicle_type) values (100145, 450245, 'Petronia Jobey', 'Michael Johnson', 'Running a Red Light', 11343, '2022-06-12', 'GJ06 EA6301', 'location20', 'Car');
+insert into Charges (Challan_no, Application_no, Offender_name, Officer_id, Offences, Amount, Offence_date, Vehicle_no, Location1, Vehicle_type) values (100146, 450246, 'L;urette McNulty', 'Robert Jackson', 'Speeding', 12899, '2022-12-27', 'GJ06 EA6301', 'location2', 'Bus');
+insert into Charges (Challan_no, Application_no, Offender_name, Officer_id, Offences, Amount, Offence_date, Vehicle_no, Location1, Vehicle_type) values (100147, 450247, 'Lian Golling', 'Chloe Baker', 'Driving without a License', 10038, '2023-04-19', 'GJ01 BQ3482', 'location11', 'Car');
+insert into Charges (Challan_no, Application_no, Offender_name, Officer_id, Offences, Amount, Offence_date, Vehicle_no, Location1, Vehicle_type) values (100148, 450248, 'Gilburt Buney', 'Victoria King', 'Illegal Parking', 18417, '2023-02-19', 'GJ06 EA6301', 'location19', 'Car');
+insert into Charges (Challan_no, Application_no, Offender_name, Officer_id, Offences, Amount, Offence_date, Vehicle_no, Location1, Vehicle_type) values (100149, 450249, 'Janot Ainscow', 'Robert Jackson', 'Driving without a License', 2917, '2023-04-01', 'GJ06 EA6310', 'location20', 'Bus');
+insert into Charges (Challan_no, Application_no, Offender_name, Officer_id, Offences, Amount, Offence_date, Vehicle_no, Location1, Vehicle_type) values (100150, 450250, 'Meyer Farmiloe', 'Natalie Mitchell', 'Illegal Parking', 8851, '2022-08-29', 'GJ06 EA6301', 'location13', 'Truck');
+
+User_charges:
+
+insert into User_charges (Login_id, Challan_no) values ('user1', 100101);
+insert into User_charges (Login_id, Challan_no) values ('user2', 100102);
+insert into User_charges (Login_id, Challan_no) values ('user3', 100103);
+insert into User_charges (Login_id, Challan_no) values ('user4', 100104);
+insert into User_charges (Login_id, Challan_no) values ('user5', 100105);
+insert into User_charges (Login_id, Challan_no) values ('user6', 100106);
+insert into User_charges (Login_id, Challan_no) values ('user7', 100107);
+insert into User_charges (Login_id, Challan_no) values ('user8', 100108);
+insert into User_charges (Login_id, Challan_no) values ('user9', 100109);
+insert into User_charges (Login_id, Challan_no) values ('user10', 100110);
+insert into User_charges (Login_id, Challan_no) values ('user11', 100111);
+insert into User_charges (Login_id, Challan_no) values ('user12', 100112);
+insert into User_charges (Login_id, Challan_no) values ('user13', 100113);
+insert into User_charges (Login_id, Challan_no) values ('user14', 100114);
+insert into User_charges (Login_id, Challan_no) values ('user15', 100115);
+insert into User_charges (Login_id, Challan_no) values ('user16', 100116);
+insert into User_charges (Login_id, Challan_no) values ('user17', 100117);
+insert into User_charges (Login_id, Challan_no) values ('user18', 100118);
+insert into User_charges (Login_id, Challan_no) values ('user19', 100119);
+insert into User_charges (Login_id, Challan_no) values ('user20', 100120);
+insert into User_charges (Login_id, Challan_no) values ('user21', 100121);
+insert into User_charges (Login_id, Challan_no) values ('user22', 100122);
+insert into User_charges (Login_id, Challan_no) values ('user23', 100123);
+insert into User_charges (Login_id, Challan_no) values ('user24', 100124);
+insert into User_charges (Login_id, Challan_no) values ('user25', 100125);
+insert into User_charges (Login_id, Challan_no) values ('user26', 100126);
+insert into User_charges (Login_id, Challan_no) values ('user27', 100127);
+insert into User_charges (Login_id, Challan_no) values ('user28', 100128);
+insert into User_charges (Login_id, Challan_no) values ('user29', 100129);
+insert into User_charges (Login_id, Challan_no) values ('user30', 100130);
+insert into User_charges (Login_id, Challan_no) values ('user31', 100131);
+insert into User_charges (Login_id, Challan_no) values ('user32', 100132);
+insert into User_charges (Login_id, Challan_no) values ('user33', 100133);
+insert into User_charges (Login_id, Challan_no) values ('user34', 100134);
+insert into User_charges (Login_id, Challan_no) values ('user35', 100135);
+insert into User_charges (Login_id, Challan_no) values ('user36', 100136);
+insert into User_charges (Login_id, Challan_no) values ('user37', 100137);
+insert into User_charges (Login_id, Challan_no) values ('user38', 100138);
+insert into User_charges (Login_id, Challan_no) values ('user39', 100139);
+insert into User_charges (Login_id, Challan_no) values ('user40', 100140);
+insert into User_charges (Login_id, Challan_no) values ('user41', 100141);
+insert into User_charges (Login_id, Challan_no) values ('user42', 100142);
+insert into User_charges (Login_id, Challan_no) values ('user43', 100143);
+insert into User_charges (Login_id, Challan_no) values ('user44', 100144);
+insert into User_charges (Login_id, Challan_no) values ('user45', 100145);
+insert into User_charges (Login_id, Challan_no) values ('user46', 100146);
+insert into User_charges (Login_id, Challan_no) values ('user47', 100147);
+insert into User_charges (Login_id, Challan_no) values ('user48', 100148);
+insert into User_charges (Login_id, Challan_no) values ('user49', 100149);
+insert into User_charges (Login_id, Challan_no) values ('user50', 100150);
+
+RC_book:
+
+insert into RC_book (Engine_no, Chassis_no, Registration_no, Registration_date, Validity, Owner_name, Vehicle_type, Fuel_type) values ('AJKS04642', 'MA6MFBC1BBT096333', 'GJ06 EA 6304', '2023-03-20', '2043-01-30', 'Elsi Pipworth', 'Motorcycle', 'Petrol');
+insert into RC_book (Engine_no, Chassis_no, Registration_no, Registration_date, Validity, Owner_name, Vehicle_type, Fuel_type) values ('BJKS04639', 'MA6MFBC1BBT096301', 'GJ01 BQ 3578', '2023-02-21', '2042-07-23', 'Averell Lindstedt', 'Car', 'Electric');
+insert into RC_book (Engine_no, Chassis_no, Registration_no, Registration_date, Validity, Owner_name, Vehicle_type, Fuel_type) values ('CJKS04635', 'MA6MFBC1BBT096315', 'GJ06 EA 6305', '2022-10-31', '2042-05-05', 'Shoshana Anthony', 'Car', 'Petrol');
+insert into RC_book (Engine_no, Chassis_no, Registration_no, Registration_date, Validity, Owner_name, Vehicle_type, Fuel_type) values ('DJKS04606', 'MA6MFBC1BBT096303', 'RJ05 HC 2706', '2022-05-27', '2042-08-05', 'Bruno Gelling', 'Bus', 'Electric');
+insert into RC_book (Engine_no, Chassis_no, Registration_no, Registration_date, Validity, Owner_name, Vehicle_type, Fuel_type) values ('EJKS04604', 'MA6MFBC1BBT096332', 'UP02 HF 2360', '2023-02-20', '2042-09-06', 'Slade Edgin', 'Car', 'Electric');
+insert into RC_book (Engine_no, Chassis_no, Registration_no, Registration_date, Validity, Owner_name, Vehicle_type, Fuel_type) values ('FJKS04616', 'MA6MFBC1BBT096321', 'UP02 JF 2356', '2023-03-07', '2043-02-20', 'Charil Noller', 'Car', 'Petrol');
+insert into RC_book (Engine_no, Chassis_no, Registration_no, Registration_date, Validity, Owner_name, Vehicle_type, Fuel_type) values ('GJKS04610', 'MA6MFBC1BBT096324', 'UP02 HF 2366', '2022-09-07', '2043-03-10', 'Cirstoforo Pattemore', 'Bus', 'Diesel');
+insert into RC_book (Engine_no, Chassis_no, Registration_no, Registration_date, Validity, Owner_name, Vehicle_type, Fuel_type) values ('HJKS05612', 'MA6MFBC1BBT096328', 'GJ06 EA 6303', '2022-06-30', '2042-05-10', 'Haslett Jennery', 'Truck', 'Petrol');
+insert into RC_book (Engine_no, Chassis_no, Registration_no, Registration_date, Validity, Owner_name, Vehicle_type, Fuel_type) values ('IJKS04607', 'MA6MFBC1BBT096315', 'UP02 HF 2363', '2022-07-05', '2042-09-22', 'Dorrie Dudlestone', 'Bus', 'Petrol');
+insert into RC_book (Engine_no, Chassis_no, Registration_no, Registration_date, Validity, Owner_name, Vehicle_type, Fuel_type) values ('JJKS04624', 'MA6MFBC1BBT096319', 'GJ06 EA 6411', '2022-07-08', '2043-02-06', 'Joanne Thorndale', 'Scooter', 'Diesel');
+insert into RC_book (Engine_no, Chassis_no, Registration_no, Registration_date, Validity, Owner_name, Vehicle_type, Fuel_type) values ('KJKS04647', 'MA6MFBC1BBT096307', 'GJ01 BQ 3475', '2022-09-02', '2042-04-23', 'Diann Reeson', 'Car', 'Petrol');
+insert into RC_book (Engine_no, Chassis_no, Registration_no, Registration_date, Validity, Owner_name, Vehicle_type, Fuel_type) values ('LJKS04617', 'MA6MFBC1BBT096338', 'GJ06 EA 6711', '2022-07-23', '2042-09-20', 'Shane Beauman', 'Motorcycle', 'Diesel');
+insert into RC_book (Engine_no, Chassis_no, Registration_no, Registration_date, Validity, Owner_name, Vehicle_type, Fuel_type) values ('MJKS04650', 'MA6MFBC1BBT096303', 'UP02 HF 2561', '2022-05-04', '2042-05-09', 'Eugenio Shaw', 'Motorcycle', 'Diesel');
+insert into RC_book (Engine_no, Chassis_no, Registration_no, Registration_date, Validity, Owner_name, Vehicle_type, Fuel_type) values ('NJKS04677', 'MA6MFBC1BBT096340', 'UP02 HF 2364', '2022-04-27', '2043-04-10', 'Rey MacKim', 'Truck', 'Diesel');
+insert into RC_book (Engine_no, Chassis_no, Registration_no, Registration_date, Validity, Owner_name, Vehicle_type, Fuel_type) values ('OJKS04614', 'MA6MFBC1BBT096320', 'UP02 HF 2259', '2023-01-11', '2042-09-10', 'Kimberlyn Cratere', 'Scooter', 'Petrol');
+insert into RC_book (Engine_no, Chassis_no, Registration_no, Registration_date, Validity, Owner_name, Vehicle_type, Fuel_type) values ('PJKS04608', 'MA6MFBC1BBT096322', 'GJ06 EA 6311', '2022-11-03', '2042-08-08', 'Diann Douse', 'Bus', 'Petrol');
+insert into RC_book (Engine_no, Chassis_no, Registration_no, Registration_date, Validity, Owner_name, Vehicle_type, Fuel_type) values ('QJKS04631', 'MA6MFBC1BBT096333', 'RJ05 HC 2401', '2023-02-13', '2042-11-01', 'Wandis Mathiassen', 'Scooter', 'Electric');
+insert into RC_book (Engine_no, Chassis_no, Registration_no, Registration_date, Validity, Owner_name, Vehicle_type, Fuel_type) values ('RJKS04687', 'MA6MFBC1BBT096317', 'UP02 HF 2659', '2022-09-30', '2042-06-30', 'Darren Le Marquand', 'Bus', 'Diesel');
+insert into RC_book (Engine_no, Chassis_no, Registration_no, Registration_date, Validity, Owner_name, Vehicle_type, Fuel_type) values ('SJKS04612', 'MA6MFBC1BBT096340', 'GJ06 EA 7308', '2022-12-06', '2043-03-14', 'Hyatt Hazeldene', 'Motorcycle', 'Electric');
+insert into RC_book (Engine_no, Chassis_no, Registration_no, Registration_date, Validity, Owner_name, Vehicle_type, Fuel_type) values ('TJKS04679', 'MA6MFBC1BBT096312', 'UP02 HF 2365', '2023-04-07', '2042-05-13', 'Melisenda Copestick', 'Truck', 'Electric');
+insert into RC_book (Engine_no, Chassis_no, Registration_no, Registration_date, Validity, Owner_name, Vehicle_type, Fuel_type) values ('UJKS04629', 'MA6MFBC1BBT096328', 'GJ01 BQ 3576', '2022-06-17', '2042-09-24', 'Sibyl Asprey', 'Bus', 'Electric');
+insert into RC_book (Engine_no, Chassis_no, Registration_no, Registration_date, Validity, Owner_name, Vehicle_type, Fuel_type) values ('VJKS04603', 'MA6MFBC1BBT096318', 'GJ06 EA 7309', '2022-09-11', '2042-08-19', 'Alden Kinsett', 'Car', 'Diesel');
+insert into RC_book (Engine_no, Chassis_no, Registration_no, Registration_date, Validity, Owner_name, Vehicle_type, Fuel_type) values ('WJKS04621', 'MA6MFBC1BBT096308', 'UP02 HF 2392', '2022-08-29', '2042-10-18', 'Krista Jeyes', 'Truck', 'Electric');
+insert into RC_book (Engine_no, Chassis_no, Registration_no, Registration_date, Validity, Owner_name, Vehicle_type, Fuel_type) values ('XJKS04742', 'MA6MFBC1BBT096333', 'UP02 HF 2361', '2022-12-09', '2042-10-24', 'Michel Grimsdith', 'Car', 'Petrol');
+insert into RC_book (Engine_no, Chassis_no, Registration_no, Registration_date, Validity, Owner_name, Vehicle_type, Fuel_type) values ('YJKS04735', 'MA6MFBC1BBT096312', 'GJ01 BQ 3476', '2023-03-02', '2042-10-09', 'La verne Cobello', 'Car', 'Electric');
+insert into RC_book (Engine_no, Chassis_no, Registration_no, Registration_date, Validity, Owner_name, Vehicle_type, Fuel_type) values ('ZJKS04648', 'MA6MFBC1BBT096313', 'GJ01 BQ 3473', '2023-02-28', '2042-07-15', 'Holly Toderini', 'Scooter', 'Diesel');
+insert into RC_book (Engine_no, Chassis_no, Registration_no, Registration_date, Validity, Owner_name, Vehicle_type, Fuel_type) values ('NAKS04615', 'MA6MFBC1BBT096333', 'GJ06 EA 6310', '2022-04-28', '2042-06-20', 'Ned Cornels', 'Scooter', 'Diesel');
+insert into RC_book (Engine_no, Chassis_no, Registration_no, Registration_date, Validity, Owner_name, Vehicle_type, Fuel_type) values ('NBKS04645', 'MA6MFBC1BBT096322', 'UP02 HF 2359', '2023-04-08', '2042-08-21', 'Craggie Kleinplac', 'Motorcycle', 'Electric');
+insert into RC_book (Engine_no, Chassis_no, Registration_no, Registration_date, Validity, Owner_name, Vehicle_type, Fuel_type) values ('NCKS05630', 'MA6MFBC1BBT096330', 'RJ05 HC 2400', '2022-04-23', '2043-03-14', 'Tiebout Harp', 'Scooter', 'Diesel');
+insert into RC_book (Engine_no, Chassis_no, Registration_no, Registration_date, Validity, Owner_name, Vehicle_type, Fuel_type) values ('NDKS04619', 'MA6MFBC1BBT096303', 'GJ06 EA 6308', '2023-01-25', '2042-05-19', 'Jacquelynn Handes', 'Truck', 'Electric');
+insert into RC_book (Engine_no, Chassis_no, Registration_no, Registration_date, Validity, Owner_name, Vehicle_type, Fuel_type) values ('NEKS04630', 'MA6MFBC1BBT096332', 'GJ01 BQ 3478', '2023-01-02', '2042-11-13', 'Stormie Jozwiak', 'Motorcycle', 'Diesel');
+insert into RC_book (Engine_no, Chassis_no, Registration_no, Registration_date, Validity, Owner_name, Vehicle_type, Fuel_type) values ('NFKS04714', 'MA6MFBC1BBT096314', 'RJ05 HC 2806', '2022-05-26', '2042-07-10', 'Merrili Pridding', 'Car', 'Petrol');
+insert into RC_book (Engine_no, Chassis_no, Registration_no, Registration_date, Validity, Owner_name, Vehicle_type, Fuel_type) values ('NGKS04605', 'MA6MFBC1BBT096328', 'GJ01 BQ 3480', '2022-09-03', '2042-08-04', 'Ebba Trathan', 'Car', 'Diesel');
+insert into RC_book (Engine_no, Chassis_no, Registration_no, Registration_date, Validity, Owner_name, Vehicle_type, Fuel_type) values ('NHKS04635', 'MA6MFBC1BBT096303', 'RJ05 HC 2406', '2023-02-23', '2042-09-18', 'Margareta Ventom', 'Car', 'Petrol');
+insert into RC_book (Engine_no, Chassis_no, Registration_no, Registration_date, Validity, Owner_name, Vehicle_type, Fuel_type) values ('NIKS04646', 'MA6MFBC1BBT096315', 'RJ05 JC 2404', '2022-08-08', '2042-07-12', 'Mufinella Harbertson', 'Scooter', 'Electric');
+insert into RC_book (Engine_no, Chassis_no, Registration_no, Registration_date, Validity, Owner_name, Vehicle_type, Fuel_type) values ('NJKS04628', 'MA6MFBC1BBT096336', 'UP02 HF 2362', '2022-06-30', '2043-01-14', 'Sid Priditt', 'Scooter', 'Diesel');
+insert into RC_book (Engine_no, Chassis_no, Registration_no, Registration_date, Validity, Owner_name, Vehicle_type, Fuel_type) values ('NKKS04611', 'MA6MFBC1BBT096333', 'RJ05 HC 2405', '2023-01-23', '2043-03-03', 'Mia De Cristoforo', 'Bus', 'Petrol');
+insert into RC_book (Engine_no, Chassis_no, Registration_no, Registration_date, Validity, Owner_name, Vehicle_type, Fuel_type) values ('NLKS04682', 'MA6MFBC1BBT096308', 'RJ05 HA 2405', '2023-02-03', '2043-01-15', 'Fairlie Wheeler', 'Car', 'Petrol');
+insert into RC_book (Engine_no, Chassis_no, Registration_no, Registration_date, Validity, Owner_name, Vehicle_type, Fuel_type) values ('NMKS04628', 'MA6MFBC1BBT096314', 'UP02 HF 2356', '2022-07-04', '2042-08-04', 'Petrina Ubsdall', 'Scooter', 'Petrol');
+insert into RC_book (Engine_no, Chassis_no, Registration_no, Registration_date, Validity, Owner_name, Vehicle_type, Fuel_type) values ('NNKS04632', 'MA6MFBC1BBT096321', 'RJ05 HC 2404', '2022-07-08', '2042-04-28', 'Chlo Greener', 'Motorcycle', 'Petrol');
+
+UPI_transaction:
+
+insert into UPI_transaction (Account_no, Upi_id) values (98765432101, 'upiuser1@oksbi');
+insert into UPI_transaction (Account_no, Upi_id) values (98765432102, 'upiuser2@oksbi');
+insert into UPI_transaction (Account_no, Upi_id) values (98765432103, 'upiuser3@oksbi');
+insert into UPI_transaction (Account_no, Upi_id) values (98765432104, 'upiuser4@oksbi');
+insert into UPI_transaction (Account_no, Upi_id) values (98765432105, 'upiuser5@oksbi');
+insert into UPI_transaction (Account_no, Upi_id) values (98765432106, 'upiuser6@oksbi');
+insert into UPI_transaction (Account_no, Upi_id) values (98765432107, 'upiuser7@oksbi');
+insert into UPI_transaction (Account_no, Upi_id) values (98765432108, 'upiuser8@oksbi');
+insert into UPI_transaction (Account_no, Upi_id) values (98765432109, 'upiuser9@oksbi');
+insert into UPI_transaction (Account_no, Upi_id) values (98765432110, 'upiuser10@oksbi');
+insert into UPI_transaction (Account_no, Upi_id) values (98765432111, 'upiuser11@oksbi');
+insert into UPI_transaction (Account_no, Upi_id) values (98765432112, 'upiuser12@oksbi');
+insert into UPI_transaction (Account_no, Upi_id) values (98765432113, 'upiuser13@oksbi');
+insert into UPI_transaction (Account_no, Upi_id) values (98765432114, 'upiuser14@oksbi');
+insert into UPI_transaction (Account_no, Upi_id) values (98765432115, 'upiuser15@oksbi');
+insert into UPI_transaction (Account_no, Upi_id) values (98765432116, 'upiuser16@oksbi');
+insert into UPI_transaction (Account_no, Upi_id) values (98765432117, 'upiuser17@oksbi');
+insert into UPI_transaction (Account_no, Upi_id) values (98765432118, 'upiuser18@oksbi');
+insert into UPI_transaction (Account_no, Upi_id) values (98765432119, 'upiuser19@oksbi');
+insert into UPI_transaction (Account_no, Upi_id) values (98765432120, 'upiuser20@oksbi');
+insert into UPI_transaction (Account_no, Upi_id) values (98765432121, 'upiuser21@oksbi');
+insert into UPI_transaction (Account_no, Upi_id) values (98765432122, 'upiuser22@oksbi');
+insert into UPI_transaction (Account_no, Upi_id) values (98765432123, 'upiuser23@oksbi');
+insert into UPI_transaction (Account_no, Upi_id) values (98765432124, 'upiuser24@oksbi');
+insert into UPI_transaction (Account_no, Upi_id) values (98765432125, 'upiuser25@oksbi');
+insert into UPI_transaction (Account_no, Upi_id) values (98765432126, 'upiuser26@oksbi');
+insert into UPI_transaction (Account_no, Upi_id) values (98765432127, 'upiuser27@oksbi');
+insert into UPI_transaction (Account_no, Upi_id) values (98765432128, 'upiuser28@oksbi');
+insert into UPI_transaction (Account_no, Upi_id) values (98765432129, 'upiuser29@oksbi');
+insert into UPI_transaction (Account_no, Upi_id) values (98765432130, 'upiuser30@oksbi');
+
+UPI:
+
+insert into UPI (Application_no, Account_no) values (450201, 98765432101);
+insert into UPI (Application_no, Account_no) values (450202, 98765432102);
+insert into UPI (Application_no, Account_no) values (450203, 98765432103);
+insert into UPI (Application_no, Account_no) values (450204, 98765432104);
+insert into UPI (Application_no, Account_no) values (450205, 98765432105);
+insert into UPI (Application_no, Account_no) values (450206, 98765432106);
+insert into UPI (Application_no, Account_no) values (450207, 98765432107);
+insert into UPI (Application_no, Account_no) values (450208, 98765432108);
+insert into UPI (Application_no, Account_no) values (450209, 98765432109);
+insert into UPI (Application_no, Account_no) values (450210, 98765432110);
+insert into UPI (Application_no, Account_no) values (450211, 98765432111);
+insert into UPI (Application_no, Account_no) values (450212, 98765432112);
+insert into UPI (Application_no, Account_no) values (450213, 98765432113);
+insert into UPI (Application_no, Account_no) values (450214, 98765432114);
+insert into UPI (Application_no, Account_no) values (450215, 98765432115);
+insert into UPI (Application_no, Account_no) values (450216, 98765432116);
+insert into UPI (Application_no, Account_no) values (450217, 98765432117);
+insert into UPI (Application_no, Account_no) values (450218, 98765432118);
+insert into UPI (Application_no, Account_no) values (450219, 98765432119);
+insert into UPI (Application_no, Account_no) values (450220, 98765432120);
+insert into UPI (Application_no, Account_no) values (450221, 98765432121);
+insert into UPI (Application_no, Account_no) values (450222, 98765432122);
+insert into UPI (Application_no, Account_no) values (450223, 98765432123);
+insert into UPI (Application_no, Account_no) values (450224, 98765432124);
+insert into UPI (Application_no, Account_no) values (450225, 98765432125);
+insert into UPI (Application_no, Account_no) values (450226, 98765432126);
+insert into UPI (Application_no, Account_no) values (450227, 98765432127);
+insert into UPI (Application_no, Account_no) values (450228, 98765432128);
+insert into UPI (Application_no, Account_no) values (450229, 98765432129);
+insert into UPI (Application_no, Account_no) values (450230, 98765432130);
+
